@@ -6,7 +6,7 @@
 
 #### Preorder
 
-```python
+```
 # recursion
 def preorder_traversal(root):
   if not root:
@@ -33,7 +33,7 @@ def preorder_non_recursion_traversal(root):
 
 #### **Inorder**
 
-```python
+```
 # recursion
 def inorder_traversal(root):
   if not root:
@@ -65,7 +65,7 @@ def inorder_non_recursion_traversal(root):
 
 #### **Postorder**
 
-```python
+```
 def postorder_travseral(root):
   if not root:
     return
@@ -84,7 +84,7 @@ def postorder_travseral(root):
 
 In inorder traversal, the **successor** is the node that **comes after current node**, and the **precursor** is the node that **comes before current node**.
 
-```text
+```
 in tree:  
        1
       / \
@@ -107,7 +107,7 @@ inorder traversal is 4251637, then 4 is 2's precursor, 5 is 2's successor
 * **Serialization** is the process of converting an object into a stream of bytes to store the object or transmit it to memory, a database, or a file. Its main purpose is to save the state of an object in order to be able to recreate it when needed. The reverse process is called deserialization.
 * Traverse through the entire tree, if it's a node, then use its value plus a symbol \(a symbol can be any kinds of character ie ',', '\_'\)
 
-```text
+```
 in tree:  
            1
           / \
@@ -134,7 +134,7 @@ To determine if a binary tree is a balanced binary tree
 * If the recursion result of right subtree is false, return false and height 0
 * If both left and right subtree is balanced, then pick the one with maximum height: max\(left, right\), return true height + 1 
 
-```python
+```
 class Solution:
     def isBalanced(self, root: TreeNode) -> bool:
         
@@ -195,7 +195,7 @@ class Solution:
 
 ### Tree DFS
 
-```text
+```
                DFS
             /      \ 
         recursion  non-recursion

@@ -2,7 +2,7 @@
 
 ## Binary Search
 
-```python
+```
 def binary_search(arr, target):
     left, right, mid = 0, len(arr) - 1, 0
     while left + 1 < right:

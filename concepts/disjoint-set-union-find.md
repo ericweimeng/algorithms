@@ -18,7 +18,7 @@ Note how every node has a parent pointer. A root node in particular has a parent
 
 We can implement the trees with an array which we denote as parent. The entry parent\[i\] indicates the parent of node i:
 
-```text
+```
        i  : 1 2 3 4 5 6 7 
 parent[i] : 2 2 2 5 5 6 7 
 ```
@@ -35,7 +35,7 @@ Determine which subset a particular element is in. This can be used for determin
 
 We can determine if two elements are in the same set by checking if the corresponding two nodes have the same root. For this we write a function called _find_ which returns the root of a tree.
 
-```python
+```
 def find(x)
      if parent[x] == x:
         return x
@@ -45,7 +45,7 @@ def find(x)
 
 This recursive function starts at a node x and climbs up the tree until it finds a root node. Recall that a root node r has the property parent\[r\] == r. Here is a table that shows the result of find\(x\) for all nodes x:
 
-```text
+```
      x  : 1 2 3 4 5 6 7
 find(x) : 2 2 2 5 5 6 7
 ```
@@ -62,7 +62,7 @@ The union-find data structure is created by starting with n singleton sets. As a
 
 The parent array for the initial situation looks like this:
 
-```text
+```
        i  : 1 2 3 4 5 6 7 8
 parent[i] : 1 2 3 4 5 6 7 8
 ```
@@ -78,7 +78,7 @@ We perform union\(2, 4\), i.e. the root of 2 is linked to the root of 4:
 
 Again we can check if two elements are in the same set by checking if their corresponding nodes have the same root. For example, find\(2\)=3 and find\(4\)=3 means that 2 and 4 have the same root, and therefore are in the same set. On the other hand find\(2\)=3 and find\(6\)=5 means that 2 and 6 have different roots, and therefore 2 and 6 are in different sets.
 
-```python
+```
 def union(x, y):
      x_root = find(x)
      y_root = find(y)
@@ -93,7 +93,7 @@ When we call the find function we traverse the path from a node x up to its root
 
 Path compression requires only a small modification of our original find function:
 
-```python
+```
 def find(x):
      if parent[x] != x:
         parent[x] = find(parent[x])
@@ -108,7 +108,7 @@ A problem with the union function is that a tree of height![\theta\(n\)](https:/
 
 We can implement union by rank as follows:
 
-```python
+```
 
 def union(x, y):
      x_root = find(x)

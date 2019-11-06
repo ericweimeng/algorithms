@@ -19,7 +19,7 @@
 
 ## LeetCode Problems Lib <a id="leetcode-problems"></a>
 
-* [01. Best Time to Buy and Sell Stock Series](leetcode-problems/01.-best-time-to-buy-and-sell-stock-series.md)
+* [0. Best Time to Buy and Sell Stock Series](leetcode-problems/01.-best-time-to-buy-and-sell-stock-series.md)
 * [42. Trapping Rain Water](leetcode-problems/42.-trapping-rain-water.md)
 * [84. Largest Rectangle in Histogram](leetcode-problems/84.-largest-rectangle-in-histogram.md)
 * [98. Validate Binary Search Tree](leetcode-problems/98.-validate-binary-search-tree.md)
