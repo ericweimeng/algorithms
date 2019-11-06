@@ -19,9 +19,11 @@
 
 ## LeetCode Problems Lib <a id="leetcode-problems"></a>
 
+* [01. Best Time to Buy and Sell Stock Series](leetcode-problems/01.-best-time-to-buy-and-sell-stock-series.md)
 * [42. Trapping Rain Water](leetcode-problems/42.-trapping-rain-water.md)
 * [84. Largest Rectangle in Histogram](leetcode-problems/84.-largest-rectangle-in-histogram.md)
 * [98. Validate Binary Search Tree](leetcode-problems/98.-validate-binary-search-tree.md)
+* [106. Construct Binary Tree from Inorder and Postorder Traversal](leetcode-problems/106.-construct-binary-tree-from-inorder-and-postorder-traversal.md)
 * [131. Palindrome Partitioning](leetcode-problems/131.-palindrome-partitioning.md)
 * [200. Number of Islands](leetcode-problems/200.-number-of-islands.md)
 * [208. Implement Trie \(Prefix Tree\)](leetcode-problems/208.-implement-trie-prefix-tree.md)
@@ -33,7 +35,6 @@
 * [863. All Nodes Distance K in Binary Tree](leetcode-problems/863.-all-nodes-distance-k-in-binary-tree.md)
 * [938. Range Sum of BST](leetcode-problems/938.-range-sum-of-bst.md)
 * [979. Distribute Coins in Binary Tree](leetcode-problems/979.-distribute-coins-in-binary-tree.md)
-* [106. Construct Binary Tree from Inorder and Postorder Traversal](leetcode-problems/106.-construct-binary-tree-from-inorder-and-postorder-traversal.md)
 * [322. Coin Change](leetcode-problems/322.-coin-change.md)
 * [947. Most Stones Removed with Same Row or Column](leetcode-problems/947.-most-stones-removed-with-same-row-or-column.md)
 * [63. Unique Paths II](leetcode-problems/63.-unique-paths-ii.md)
