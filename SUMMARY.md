@@ -59,5 +59,6 @@
 * [523. Continuous Subarray Sum](leetcode-problems/523.-continuous-subarray-sum.md)
 * [877. Stone Game](leetcode-problems/877.-stone-game.md)
 * [1057. Campus Bikes](leetcode-problems/untitled.md)
+* [1007. Minimum Domino Rotations For Equal Row](leetcode-problems/1007.-minimum-domino-rotations-for-equal-row.md)
 * [Untitled](untitled.md)
 
