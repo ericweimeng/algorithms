@@ -7,19 +7,72 @@
 #### Preorder
 
 ```python
-# recursiondef preorder_traversal(root):  if not root:    return    print(root.data)  preorder_traversal(root.left)  preorder_traversal(root.right)# non recursiondef preorder_non_recursion_traversal(root):  if not root:    return  stack = [root]  while stack:    node = stack.pop()    if node is not None:      print(node.val)      if node.right is not None:        stack.append(node.right)      if node.left is not None:        stack.append(node.left)
+# recursion
+def preorder_traversal(root):
+  if not root:
+    return
+  
+  print(root.data)
+  preorder_traversal(root.left)
+  preorder_traversal(root.right)
+
+# non recursion
+def preorder_non_recursion_traversal(root):
+  if not root:
+    return
+  stack = [root]
+  while stack:
+    node = stack.pop()
+    if node is not None:
+      print(node.val)
+      if node.right is not None:
+        stack.append(node.right)
+      if node.left is not None:
+        stack.append(node.left)
 ```
 
 #### **Inorder**
 
 ```python
-# recursiondef inorder_traversal(root):  if not root:    return    inorder_traversal(root.left)  print(root.data)  inorder_traversal(root.right)# non recursiondef inorder_non_recursion_traversal(root):  if not root:    return    cur = root  stack = [root]  while stack:    if cur.left is not None:      stack.append(cur.left)      cur = cur.left      continue    node = stack.pop()    print(node.val)    if node.right is not None:      stack.append(node.right)      cur = node.right      continue
+# recursion
+def inorder_traversal(root):
+  if not root:
+    return
+  
+  inorder_traversal(root.left)
+  print(root.data)
+  inorder_traversal(root.right)
+
+# non recursion
+def inorder_non_recursion_traversal(root):
+  if not root:
+    return
+  
+  cur = root
+  stack = [root]
+  while stack:
+    if cur.left is not None:
+      stack.append(cur.left)
+      cur = cur.left
+      continue
+    node = stack.pop()
+    print(node.val)
+    if node.right is not None:
+      stack.append(node.right)
+      cur = node.right
+      continue
 ```
 
 #### **Postorder**
 
 ```python
-def postorder_travseral(root):  if not root:    return    postorder_travseral(root.left)  postorder_travseral(root.right)  print(root.data)
+def postorder_travseral(root):
+  if not root:
+    return
+  
+  postorder_travseral(root.left)
+  postorder_travseral(root.right)
+  print(root.data)
 ```
 
 #### Tips
@@ -32,7 +85,14 @@ def postorder_travseral(root):  if not root:    return    postorder_travseral(ro
 In inorder traversal, the **successor** is the node that **comes after current node**, and the **precursor** is the node that **comes before current node**.
 
 ```text
-in tree:         1      / \    2    3   / \   / \  4   5 6   7inorder traversal is 4251637, then 4 is 2's precursor, 5 is 2's successor
+in tree:  
+       1
+      / \
+    2    3
+   / \   / \
+  4   5 6   7
+
+inorder traversal is 4251637, then 4 is 2's precursor, 5 is 2's successor
 ```
 
 #### Tips
@@ -48,7 +108,14 @@ in tree:         1      / \    2    3   / \   / \  4   5 6   7inorder traversal 
 * Traverse through the entire tree, if it's a node, then use its value plus a symbol \(a symbol can be any kinds of character ie ',', '\_'\)
 
 ```text
-in tree:             1          / \        2    3       / \   / \      4   5 6   7      preorder plus ',' : '1,2,4,#,#,5,#,#,3,6,#,#,7,#,#'
+in tree:  
+           1
+          / \
+        2    3
+       / \   / \
+      4   5 6   7
+      
+preorder plus ',' : '1,2,4,#,#,5,#,#,3,6,#,#,7,#,#'
 ```
 
 * Deserialization is the reverse process of serialization
@@ -68,7 +135,19 @@ To determine if a binary tree is a balanced binary tree
 * If both left and right subtree is balanced, then pick the one with maximum height: max\(left, right\), return true height + 1 
 
 ```python
-class Solution:    def isBalanced(self, root: TreeNode) -> bool:                if not root:            return True                return abs(self.get_height(root.left) - self.get_height(root.right)) <= 1 and self.isBalanced(root.left) and self.isBalanced(root.right)                          def get_height(self, root):        if not root:            return 0        return max(self.get_height(root.left), self.get_height(root.right)) + 1
+class Solution:
+    def isBalanced(self, root: TreeNode) -> bool:
+        
+        if not root:
+            return True
+        
+        return abs(self.get_height(root.left) - self.get_height(root.right)) <= 1 and self.isBalanced(root.left) and self.isBalanced(root.right)
+    
+                  
+    def get_height(self, root):
+        if not root:
+            return 0
+        return max(self.get_height(root.left), self.get_height(root.right)) + 1
 ```
 
 ### **Full Binary Tree and Complete Binary Tree**
@@ -117,7 +196,11 @@ class Solution:    def isBalanced(self, root: TreeNode) -> bool:                
 ### Tree DFS
 
 ```text
-               DFS            /      \         recursion  non-recursion        /       \     traversal divide and conquer
+               DFS
+            /      \ 
+        recursion  non-recursion
+        /       \ 
+    traversal divide and conquer
 ```
 
 ### Basic Solutions

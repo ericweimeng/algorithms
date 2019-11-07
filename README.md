@@ -11,7 +11,8 @@ Github link for code: [here](https://github.com/ericweimeng/csbase/tree/master/a
 ## Ways of thinking
 
 * Counterintuitive Thinking
-* 
+* Backward Reasoning
+
 ## Input Size and Time Complexity
 
 ### CPU capacity
