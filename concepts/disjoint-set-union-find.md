@@ -18,9 +18,8 @@ Note how every node has a parent pointer. A root node in particular has a parent
 
 We can implement the trees with an array which we denote as parent. The entry parent\[i\] indicates the parent of node i:
 
-```
-       i  : 1 2 3 4 5 6 7 
-parent[i] : 2 2 2 5 5 6 7 
+```text
+       i  : 1 2 3 4 5 6 7 parent[i] : 2 2 2 5 5 6 7 
 ```
 
 For instance, parent\[3\]=2 means that node 3 has node 2 as its parent. Another example is parent\[2\]=2 since node 2 points to itself. We can already see that a root node r is characterized by parent\[r\] == r.
@@ -35,19 +34,14 @@ Determine which subset a particular element is in. This can be used for determin
 
 We can determine if two elements are in the same set by checking if the corresponding two nodes have the same root. For this we write a function called _find_ which returns the root of a tree.
 
-```
-def find(x)
-     if parent[x] == x:
-        return x
-     else:
-        return find(parent[x])
+```python
+def find(x)     if parent[x] == x:        return x     else:        return find(parent[x])
 ```
 
 This recursive function starts at a node x and climbs up the tree until it finds a root node. Recall that a root node r has the property parent\[r\] == r. Here is a table that shows the result of find\(x\) for all nodes x:
 
-```
-     x  : 1 2 3 4 5 6 7
-find(x) : 2 2 2 5 5 6 7
+```text
+     x  : 1 2 3 4 5 6 7find(x) : 2 2 2 5 5 6 7
 ```
 
 #### Union
@@ -62,9 +56,8 @@ The union-find data structure is created by starting with n singleton sets. As a
 
 The parent array for the initial situation looks like this:
 
-```
-       i  : 1 2 3 4 5 6 7 8
-parent[i] : 1 2 3 4 5 6 7 8
+```text
+       i  : 1 2 3 4 5 6 7 8parent[i] : 1 2 3 4 5 6 7 8
 ```
 
 We perform some union operations: union\(2,1\), union\(4,3\), union\(6,5\), where union\(x, y\) means we perform the union of the sets with element x and element y:![\{1,2\}, \{3,4\}, \{5,6\}, \{7\}, \{8\}](https://s0.wp.com/latex.php?latex=%5C%7B1%2C2%5C%7D%2C+%5C%7B3%2C4%5C%7D%2C+%5C%7B5%2C6%5C%7D%2C+%5C%7B7%5C%7D%2C+%5C%7B8%5C%7D&bg=e9e9dc&fg=333333&s=0). For our tree data structure union\(x, y\) means we link the root of node x to the root of node y.
@@ -78,11 +71,8 @@ We perform union\(2, 4\), i.e. the root of 2 is linked to the root of 4:
 
 Again we can check if two elements are in the same set by checking if their corresponding nodes have the same root. For example, find\(2\)=3 and find\(4\)=3 means that 2 and 4 have the same root, and therefore are in the same set. On the other hand find\(2\)=3 and find\(6\)=5 means that 2 and 6 have different roots, and therefore 2 and 6 are in different sets.
 
-```
-def union(x, y):
-     x_root = find(x)
-     y_root = find(y)
-     parent[x_root] = y_root
+```python
+def union(x, y):     x_root = find(x)     y_root = find(y)     parent[x_root] = y_root
 ```
 
 #### **Path compression**
@@ -93,11 +83,8 @@ When we call the find function we traverse the path from a node x up to its root
 
 Path compression requires only a small modification of our original find function:
 
-```
-def find(x):
-     if parent[x] != x:
-        parent[x] = find(parent[x])
-     return parent[x]
+```python
+def find(x):     if parent[x] != x:        parent[x] = find(parent[x])     return parent[x]
 ```
 
 #### **Union by rank**
@@ -108,20 +95,8 @@ A problem with the union function is that a tree of height![\theta\(n\)](https:/
 
 We can implement union by rank as follows:
 
-```
-
-def union(x, y):
-     x_root = find(x)
-     y_root = find(y)
-     if x_root == y_root:
-         return
-
-     if rank[x_root] > rank[y_root]:
-         parent[y_root] = x_root
-     else:
-         parent[x_root] = y_root
-         if rank[x_root] == rank[y_root]:
-             rank[y_root] = rank[y_root] + 1
+```python
+def union(x, y):     x_root = find(x)     y_root = find(y)     if x_root == y_root:         return     if rank[x_root] > rank[y_root]:         parent[y_root] = x_root     else:         parent[x_root] = y_root         if rank[x_root] == rank[y_root]:             rank[y_root] = rank[y_root] + 1
 ```
 
 rank is an array, and rank\[i\] returns the rank for node i.
