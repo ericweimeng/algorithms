@@ -60,5 +60,6 @@
 * [877. Stone Game](leetcode-problems/877.-stone-game.md)
 * [1057. Campus Bikes](leetcode-problems/untitled.md)
 * [1007. Minimum Domino Rotations For Equal Row](leetcode-problems/1007.-minimum-domino-rotations-for-equal-row.md)
+* [1066. Campus Bikes II](leetcode-problems/1066.-campus-bikes-ii.md)
 * [Untitled](untitled.md)
 
