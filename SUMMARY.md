@@ -67,5 +67,7 @@
 * [1055. Shortest Way to Form String](leetcode-problems/1055.-shortest-way-to-form-string.md)
 * [983. Minimum Cost For Tickets](leetcode-problems/983.-minimum-cost-for-tickets.md)
 * [1027. Longest Arithmetic Sequence](leetcode-problems/1027.-longest-arithmetic-sequence.md)
+* [1143. Longest Common Subsequence](leetcode-problems/1143.-longest-common-subsequence.md)
+* [1024. Video Stitching](leetcode-problems/1024.-video-stitching.md)
 * [Untitled](untitled.md)
 
