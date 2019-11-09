@@ -62,5 +62,10 @@
 * [1007. Minimum Domino Rotations For Equal Row](leetcode-problems/1007.-minimum-domino-rotations-for-equal-row.md)
 * [1066. Campus Bikes II](leetcode-problems/1066.-campus-bikes-ii.md)
 * [482. License Key Formatting](leetcode-problems/482.-license-key-formatting.md)
+* [935. Knight Dialer](leetcode-problems/935.-knight-dialer.md)
+* [688. Knight Probability in Chessboard](leetcode-problems/688.-knight-probability-in-chessboard.md)
+* [1055. Shortest Way to Form String](leetcode-problems/1055.-shortest-way-to-form-string.md)
+* [983. Minimum Cost For Tickets](leetcode-problems/983.-minimum-cost-for-tickets.md)
+* [1027. Longest Arithmetic Sequence](leetcode-problems/1027.-longest-arithmetic-sequence.md)
 * [Untitled](untitled.md)
 
