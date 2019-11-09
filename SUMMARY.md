@@ -61,5 +61,6 @@
 * [1057. Campus Bikes](leetcode-problems/untitled.md)
 * [1007. Minimum Domino Rotations For Equal Row](leetcode-problems/1007.-minimum-domino-rotations-for-equal-row.md)
 * [1066. Campus Bikes II](leetcode-problems/1066.-campus-bikes-ii.md)
+* [482. License Key Formatting](leetcode-problems/482.-license-key-formatting.md)
 * [Untitled](untitled.md)
 
