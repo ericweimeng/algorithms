@@ -69,5 +69,7 @@
 * [1027. Longest Arithmetic Sequence](leetcode-problems/1027.-longest-arithmetic-sequence.md)
 * [1143. Longest Common Subsequence](leetcode-problems/1143.-longest-common-subsequence.md)
 * [1024. Video Stitching](leetcode-problems/1024.-video-stitching.md)
+* [953. Verifying an Alien Dictionary](leetcode-problems/953.-verifying-an-alien-dictionary.md)
+* [811. Subdomain Visit Count](leetcode-problems/811.-subdomain-visit-count.md)
 * [Untitled](untitled.md)
 
