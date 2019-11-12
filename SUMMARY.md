@@ -77,5 +77,6 @@
 * [509. Fibonacci Number](leetcode-problems/509.-fibonacci-number.md)
 * [819. Most Common Word](leetcode-problems/819.-most-common-word.md)
 * [1108. Defanging an IP Address](leetcode-problems/1108.-defanging-an-ip-address.md)
+* [977. Squares of a Sorted Array](leetcode-problems/977.-squares-of-a-sorted-array.md)
 * [Untitled](untitled.md)
 
