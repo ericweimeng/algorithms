@@ -79,5 +79,6 @@
 * [1108. Defanging an IP Address](leetcode-problems/1108.-defanging-an-ip-address.md)
 * [977. Squares of a Sorted Array](leetcode-problems/977.-squares-of-a-sorted-array.md)
 * [1002. Find Common Characters](leetcode-problems/1002.-find-common-characters.md)
+* [359. Logger Rate Limiter](leetcode-problems/359.-logger-rate-limiter.md)
 * [Untitled](untitled.md)
 
