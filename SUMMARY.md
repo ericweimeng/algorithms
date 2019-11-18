@@ -80,5 +80,9 @@
 * [977. Squares of a Sorted Array](leetcode-problems/977.-squares-of-a-sorted-array.md)
 * [1002. Find Common Characters](leetcode-problems/1002.-find-common-characters.md)
 * [359. Logger Rate Limiter](leetcode-problems/359.-logger-rate-limiter.md)
+* [1122. Relative Sort Array](leetcode-problems/1122.-relative-sort-array.md)
+* [443. String Compression](leetcode-problems/443.-string-compression.md)
+* [706. Design HashMap](leetcode-problems/706.-design-hashmap.md)
+* [605. Can Place Flowers](leetcode-problems/605.-can-place-flowers.md)
 * [Untitled](untitled.md)
 
