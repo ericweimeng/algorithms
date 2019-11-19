@@ -86,5 +86,6 @@
 * [605. Can Place Flowers](leetcode-problems/605.-can-place-flowers.md)
 * [225. Implement Stack using Queues](leetcode-problems/225.-implement-stack-using-queues.md)
 * [560. Subarray Sum Equals K](leetcode-problems/560.-subarray-sum-equals-k.md)
+* [5. Longest Palindromic Substring](leetcode-problems/5.-longest-palindromic-substring.md)
 * [Untitled](untitled.md)
 
