@@ -87,5 +87,7 @@
 * [225. Implement Stack using Queues](leetcode-problems/225.-implement-stack-using-queues.md)
 * [560. Subarray Sum Equals K](leetcode-problems/560.-subarray-sum-equals-k.md)
 * [5. Longest Palindromic Substring](leetcode-problems/5.-longest-palindromic-substring.md)
+* [325. Maximum Size Subarray Sum Equals k](leetcode-problems/325.-maximum-size-subarray-sum-equals-k.md)
+* [713. Subarray Product Less Than K](leetcode-problems/713.-subarray-product-less-than-k.md)
 * [Untitled](untitled.md)
 
