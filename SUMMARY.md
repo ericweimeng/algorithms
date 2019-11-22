@@ -89,5 +89,8 @@
 * [5. Longest Palindromic Substring](leetcode-problems/5.-longest-palindromic-substring.md)
 * [325. Maximum Size Subarray Sum Equals k](leetcode-problems/325.-maximum-size-subarray-sum-equals-k.md)
 * [713. Subarray Product Less Than K](leetcode-problems/713.-subarray-product-less-than-k.md)
+* [525. Contiguous Array](leetcode-problems/525.-contiguous-array.md)
+* [739. Daily Temperatures](leetcode-problems/739.-daily-temperatures.md)
+* [438. Find All Anagrams in a String](leetcode-problems/438.-find-all-anagrams-in-a-string.md)
 * [Untitled](untitled.md)
 
