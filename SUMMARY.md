@@ -25,6 +25,7 @@
 * [39. Combination Sum](leetcode-problems/39.-combination-sum.md)
 * [40. Combination Sum II](leetcode-problems/40.-combination-sum-ii.md)
 * [42. Trapping Rain Water](leetcode-problems/42.-trapping-rain-water.md)
+* [47. Permutations II](leetcode-problems/47.-permutations-ii.md)
 * [63. Unique Paths II](leetcode-problems/63.-unique-paths-ii.md)
 * [64. Minimum Path Sum](leetcode-problems/64.-minimum-path-sum.md)
 * [84. Largest Rectangle in Histogram](leetcode-problems/84.-largest-rectangle-in-histogram.md)
