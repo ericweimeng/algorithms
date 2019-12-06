@@ -1,5 +1,23 @@
 # Dynamic Programming
 
+## Knapsack
+
+### Type I, 0-1 Without Values
+
+Given _n_ items with size Ai, an integer _m_ denotes the size of a backpack. How full you can fill this backpack
+
+#### Recursive equation
+
+The dp\[i\]\[j\] denotes the the maximum weight using items up to i, therefore for each dp\[i\]\[j\], the recursive equation can be easily represented as 
+
+dp\[i\]\[j\] = max\(dp\[i - 1\]\[j\], dp\[i - 1\]\[j - Ai\] + Ai\)  \# putting or not putting this item to knapsack
+
+#### Code
+
+```text
+
+```
+
 ### 如何判断是否是动态规划
 
 * How many ways
@@ -79,6 +97,8 @@
   * 为坐标型动态规划
 * 博弈型
 * 综合型
+
+### 
 
 ### 滚动数组
 
