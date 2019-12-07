@@ -6,11 +6,83 @@
 
 Given _n_ items with size Ai, an integer _m_ denotes the size of a backpack. How full you can fill this backpack
 
-#### Recursive equation
+There are 2 ways to think about this problems, one is use dp\[i\]\[j\] denote if it's possible to get weights j using items up to the i-th. Another way is to use dp\[i\]\[j\] denote maximum weight using items up to i-th to fit in a j size knapsack
 
-The dp\[i\]\[j\] denotes the the maximum weight using items up to i, therefore for each dp\[i\]\[j\], the recursive equation can be easily represented as 
+**Thought I**
+
+dp\[i\]\[j\] denotes if it's possible to get weights j using items up to the i-th item. 
+
+**Recursive equation**
+
+```text
+dp[i][w] = dp[i - 1][w] OR f[i - 1][w-Ai-1]
+```
+
+**Initialization**
+
+```text
+dp[0][0] = True  # use 0 items to get weight 0, possible
+dp[0][1...m] = False  # use 0 items to get weight 1...m, impossible
+```
+
+**Corner cases**
+
+```text
+dp[i-1][w-Ai-1] has to make sure w >= Ai-1
+```
+
+**Calculation**
+
+```text
+Initialize dp[0][0], dp[0][1], ... dp[0][m]
+Calculate if using item 1 can get dp[1][0], dp[1][1], ..., dp[1][m]
+Calculate if using item up to 2 can get dp[2][0], dp[2][1], ..., dp[2][m]
+Calculate if using item up to n can get dp[n][0], dp[n][1], ..., dp[n][m]
+Time O(NM)
+space: O(m)
+```
+
+#### Very first version
+
+```python
+class Solution:
+    """
+    @param m: An integer m denotes the size of a backpack
+    @param A: Given n items with size A[i]
+    @return: The maximum size
+    """
+    def backPack(self, m, A):
+        # write your code here
+        
+        n = len(A)
+        if not n:
+            return 0
+        
+        
+        dp = [[False for _ in range(m + 1)] for _ in range(n + 1)]
+        dp[0][0] = True
+        
+        for i in range(1, n + 1):
+            for j in range(m + 1):
+                dp[i][j] = dp[i - 1][j]
+                if j >= A[i - 1]:
+                    dp[i][j] |= dp[i - 1][j - A[i - 1]]
+                    
+        for i in range(m, -1, -1):
+            if dp[n][i]:
+                return i
+                    
+                
+        return 0
+```
+
+**Thought II**
+
+The dp\[i\]\[j\] denotes the the maximum weight using items up to i to fit in a j size knapsack, therefore for each dp\[i\]\[j\], the recursive equation can be easily represented as 
 
 dp\[i\]\[j\] = max\(dp\[i - 1\]\[j\], dp\[i - 1\]\[j - Ai\] + Ai\)  \# putting or not putting this item to knapsack
+
+
 
 #### Code
 
