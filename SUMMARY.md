@@ -66,6 +66,7 @@
 * [560. Subarray Sum Equals K](leetcode-problems/560.-subarray-sum-equals-k.md)
 * [605. Can Place Flowers](leetcode-problems/605.-can-place-flowers.md)
 * [621. Task Scheduler](leetcode-problems/621.-task-scheduler.md)
+* [646. Maximum Length of Pair Chain](leetcode-problems/646.-maximum-length-of-pair-chain.md)
 * [680. Valid Palindrome II](leetcode-problems/680.-valid-palindrome-ii.md)
 * [688. Knight Probability in Chessboard](leetcode-problems/688.-knight-probability-in-chessboard.md)
 * [695. Max Area of Island](leetcode-problems/695.-max-area-of-island.md)
