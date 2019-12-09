@@ -138,7 +138,7 @@ class Solution:
         return dp[m]
 ```
 
-The reason for reversed order is we can only use every item once.
+The reason for reversed order is we can only use every item once and each dp\[i\] relies on dp\[i - A\[j\]\] that comes before it.
 
 #### Bonus solution
 
@@ -210,7 +210,31 @@ class Solution:
         intervals[-1][1] = max(intervals[-1][1], interval[1])
 ```
 
+### Type II 0/1 With values
 
+Given _n_ items with size Ai and value Vi, and a backpack with size _m_. What's the maximum value can you put into the backpack?
+
+```python
+class Solution:
+    """
+    @param m: An integer m denotes the size of a backpack
+    @param A: Given n items with size A[i]
+    @param V: Given n items with value V[i]
+    @return: The maximum value
+    """
+    def backPackII(self, m, A, V):
+        # write your code here
+        
+        dp = [0 for _ in range(m + 1)]
+        n = len(A)
+        
+        for i in range(n):
+            for j in range(m, A[i] - 1, -1):
+                if j >= A[i]:
+                    dp[j] = max(dp[j], dp[j - A[i]] + V[i])
+                    
+        return dp[m]
+```
 
 ### Type V 0/1 Counting Knapsack \(计数型背包，前i项有多少种方法拼出W\)
 
