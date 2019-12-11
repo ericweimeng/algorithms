@@ -2,7 +2,7 @@
 
 ## Knapsack
 
-### Type I, 0/1 Without Values
+### Type I, 0/1 Without Values \(0/1 可行性型\)
 
 Given _n_ items with size Ai, an integer _m_ denotes the size of a backpack. How full you can fill this backpack
 
@@ -210,7 +210,7 @@ class Solution:
         intervals[-1][1] = max(intervals[-1][1], interval[1])
 ```
 
-### Type II 0/1 With values
+### Type II 0/1 With values \(0/1 最值型\)
 
 Given _n_ items with size Ai and value Vi, and a backpack with size _m_. What's the maximum value can you put into the backpack?
 
@@ -234,6 +234,50 @@ class Solution:
                     dp[j] = max(dp[j], dp[j - A[i]] + V[i])
                     
         return dp[m]
+```
+
+### Type III Complete Knapsack \(完全最值型\)
+
+Given n types of items with size Ai and value Vi\( each item has an infinite number available\) and a backpack with size m. What's the maximum value can you put into the backpack? 
+
+The transitional equation can be represented as
+
+dp\[i\]\[w\] = max\(dp\[i-1\]\[w\], dp\[i-1\]\[w-A\[i\]\] + Vi\)
+
+Proof:
+
+A\[i-1\] = 2, v
+
+dp\[i\]\[5\] = max{dp\[i-1\]\[5\], dp\[i-1\]\[3\] + v, dp\[i-1\]\[1\] + 2v}
+
+dp\[i\]\[7\] = max{dp\[i-1\]\[7\], dp\[i - 1\]\[5\] + v, dp\[i-1\]\[3\] + 2v, dp\[i-1\]\[1\] + 3v} 
+
+= max{dp\[i-1\]\[5\], dp\[i-1\]\[3\] + v, dp\[i-1\]\[1\] + 2v} + v 
+
+= dp\[i\]\[5\] + v
+
+=dp\[i\]\[7-5\] + v
+
+if we do it in one dimensional is
+
+dp\[7\] = max\(dp\[7\], dp\[7-5\] + v\)
+
+```python
+class Solution:
+    """
+    @param A: an integer array
+    @param V: an integer array
+    @param m: An integer
+    @return: an array
+    """
+    def backPackIII(self, A, V, m):
+        # write your code here
+        n = len(A)
+        dp = [0 for _ in range(m+1)]
+        for i in range(n):
+            for j in range(A[i], m+1):
+                dp[j] = max(dp[j-A[i]] + V[i], dp[j])
+        return dp[-1]
 ```
 
 ### Type V 0/1 Counting Knapsack \(计数型背包，前i项有多少种方法拼出W\)
@@ -305,7 +349,7 @@ class Solution:
 
 #### Notes
 
-The key point to solve knapsack is to see the last step, if order does not matter then what is the last item and if order does not matter, whether last item will be put in knapsack or not.
+The key point to solve knapsack is to see the last step, if order does not matter then what is the last item and if order does matter, then to see whether the last item should be put in knapsack or not.
 
 #### Reference
 
