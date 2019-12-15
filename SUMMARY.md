@@ -15,7 +15,11 @@
 * [Queue](concepts/queue.md)
 * [Binary Search and Sweep Line](concepts/binary-search-and-sweeping-line.md)
 * [DFS](concepts/dfs.md)
-* [Dynamic Programming](concepts/dynamic-programming.md)
+* [Dynamic Programming](concepts/dynamic-programming/README.md)
+  * [Knapsack](concepts/dynamic-programming/dp-knapsack/README.md)
+    * [322. Coin Change](concepts/dynamic-programming/dp-knapsack/322.-coin-change.md)
+    * [518. Coin Change 2](concepts/dynamic-programming/dp-knapsack/518.-coin-change-2.md)
+    * [416. Partition Equal Subset Sum](concepts/dynamic-programming/dp-knapsack/416.-partition-equal-subset-sum.md)
 
 ## LeetCode Problems Lib <a id="leetcode-problems"></a>
 
@@ -55,11 +59,13 @@
 * [364. Nested List Weight Sum II](leetcode-problems/364.-nested-list-weight-sum-ii.md)
 * [377. Combination Sum IV](leetcode-problems/377.-combination-sum-iv.md)
 * [378. Kth Smallest Element in a Sorted Matrix](leetcode-problems/378.-kth-smallest-element-in-a-sorted-matrix.md)
+* [416. Partition Equal Subset Sum](leetcode-problems/416.-partition-equal-subset-sum.md)
 * [438. Find All Anagrams in a String](leetcode-problems/438.-find-all-anagrams-in-a-string.md)
 * [443. String Compression](leetcode-problems/443.-string-compression.md)
 * [482. License Key Formatting](leetcode-problems/482.-license-key-formatting.md)
 * [494. Target Sum](leetcode-problems/494.-target-sum.md)
 * [509. Fibonacci Number](leetcode-problems/509.-fibonacci-number.md)
+* [518. Coin Change 2](leetcode-problems/518.-coin-change-2.md)
 * [523. Continuous Subarray Sum](leetcode-problems/523.-continuous-subarray-sum.md)
 * [525. Contiguous Array](leetcode-problems/525.-contiguous-array.md)
 * [547. Friend Circles](leetcode-problems/547.-friend-circles.md)
@@ -101,5 +107,4 @@
 * [1108. Defanging an IP Address](leetcode-problems/1108.-defanging-an-ip-address.md)
 * [1122. Relative Sort Array](leetcode-problems/1122.-relative-sort-array.md)
 * [1143. Longest Common Subsequence](leetcode-problems/1143.-longest-common-subsequence.md)
-* [Untitled](untitled.md)
 
