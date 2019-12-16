@@ -20,6 +20,7 @@
     * [322. Coin Change](concepts/dynamic-programming/dp-knapsack/322.-coin-change.md)
     * [518. Coin Change 2](concepts/dynamic-programming/dp-knapsack/518.-coin-change-2.md)
     * [416. Partition Equal Subset Sum](concepts/dynamic-programming/dp-knapsack/416.-partition-equal-subset-sum.md)
+    * [494. Target Sum](concepts/dynamic-programming/dp-knapsack/494.-target-sum.md)
 
 ## LeetCode Problems Lib <a id="leetcode-problems"></a>
 
