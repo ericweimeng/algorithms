@@ -40,7 +40,7 @@ description: Breath First Search
 
 ## Problems
 
-* [Number of Islands](../leetcode-problems/200.-number-of-islands.md)
-* [Friend Circles](../leetcode-problems/547.-friend-circles.md)
-* [Accounts Merge](../leetcode-problems/721.-accounts-merge.md)
+* [Number of Islands](../../leetcode-problems/200.-number-of-islands.md)
+* [Friend Circles](../../leetcode-problems/547.-friend-circles.md)
+* [Accounts Merge](../../leetcode-problems/721.-accounts-merge.md)
 
