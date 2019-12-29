@@ -20,6 +20,7 @@
   * [844. Backspace String Compare](concepts/two-pointers/844.-backspace-string-compare.md)
 * [Dynamic Programming](concepts/dynamic-programming/README.md)
   * [Intervals](concepts/dynamic-programming/intervals/README.md)
+    * [10. Regular Expression Matching](concepts/dynamic-programming/intervals/10.-regular-expression-matching.md)
     * [97. Interleaving String](concepts/dynamic-programming/intervals/97.-interleaving-string.md)
     * [Untitled](concepts/dynamic-programming/intervals/untitled.md)
     * [312. Burst Balloons](concepts/dynamic-programming/intervals/312.-burst-balloons.md)
