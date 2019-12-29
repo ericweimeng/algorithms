@@ -34,6 +34,7 @@
 
 * [0. Best Time to Buy and Sell Stock Series](leetcode-problems/01.-best-time-to-buy-and-sell-stock-series.md)
 * [5. Longest Palindromic Substring](leetcode-problems/5.-longest-palindromic-substring.md)
+* [10. Regular Expression Matching](leetcode-problems/10.-regular-expression-matching.md)
 * [32. Longest Valid Parentheses](leetcode-problems/32.-longest-valid-parentheses.md)
 * [39. Combination Sum](leetcode-problems/39.-combination-sum.md)
 * [40. Combination Sum II](leetcode-problems/40.-combination-sum-ii.md)
