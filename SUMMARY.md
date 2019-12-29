@@ -22,7 +22,7 @@
   * [Intervals](concepts/dynamic-programming/intervals/README.md)
     * [10. Regular Expression Matching](concepts/dynamic-programming/intervals/10.-regular-expression-matching.md)
     * [97. Interleaving String](concepts/dynamic-programming/intervals/97.-interleaving-string.md)
-    * [Untitled](concepts/dynamic-programming/intervals/untitled.md)
+    * [115. Distinct Subsequences](concepts/dynamic-programming/intervals/untitled.md)
     * [312. Burst Balloons](concepts/dynamic-programming/intervals/312.-burst-balloons.md)
     * [516. Longest Palindromic Subsequence](concepts/dynamic-programming/intervals/516.-longest-palindromic-subsequence.md)
   * [Knapsack](concepts/dynamic-programming/dp-knapsack/README.md)
