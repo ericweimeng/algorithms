@@ -30,6 +30,7 @@
   * [Knapsack](concepts/dynamic-programming/dp-knapsack/README.md)
     * [322. Coin Change](concepts/dynamic-programming/dp-knapsack/322.-coin-change.md)
     * [416. Partition Equal Subset Sum](concepts/dynamic-programming/dp-knapsack/416.-partition-equal-subset-sum.md)
+    * [474. Ones and Zeroes](concepts/dynamic-programming/dp-knapsack/474.-ones-and-zeroes.md)
     * [494. Target Sum](concepts/dynamic-programming/dp-knapsack/494.-target-sum.md)
     * [518. Coin Change 2](concepts/dynamic-programming/dp-knapsack/518.-coin-change-2.md)
 
