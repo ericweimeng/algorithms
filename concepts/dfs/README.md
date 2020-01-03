@@ -24,11 +24,11 @@
 * 
 ## Problems
 
-* [Nested List Weight Sum II](../leetcode-problems/364.-nested-list-weight-sum-ii.md)
-* [Max Area of Island](../leetcode-problems/695.-max-area-of-island.md)
-* [All Nodes Distance K in Binary Tree](../leetcode-problems/863.-all-nodes-distance-k-in-binary-tree.md)
-* [Palindrome Partitioning](../leetcode-problems/131.-palindrome-partitioning.md)
-* [Validate Binary Search Tree](../leetcode-problems/98.-validate-binary-search-tree.md)
+* [Nested List Weight Sum II](../../leetcode-problems/364.-nested-list-weight-sum-ii.md)
+* [Max Area of Island](../../leetcode-problems/695.-max-area-of-island.md)
+* [All Nodes Distance K in Binary Tree](../../leetcode-problems/863.-all-nodes-distance-k-in-binary-tree.md)
+* [Palindrome Partitioning](../../leetcode-problems/131.-palindrome-partitioning.md)
+* [Validate Binary Search Tree](../../leetcode-problems/98.-validate-binary-search-tree.md)
 * [979. Distribute Coins in Binary Tree](https://app.gitbook.com/@ericwei0910/s/workspace/~/edit/drafts/-LpfeWEe4WYnAMdRR_lB/leetcode-problems/979.-distribute-coins-in-binary-tree)
 * [106. Construct Binary Tree from Inorder and Postorder Traversal](https://app.gitbook.com/@ericwei0910/s/workspace/~/edit/drafts/-LpfeWEe4WYnAMdRR_lB/leetcode-problems/106.-construct-binary-tree-from-inorder-and-postorder-traversal)
 
