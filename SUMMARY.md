@@ -4,6 +4,9 @@
 
 ## Concepts
 
+* [Array](concepts/array/README.md)
+  * [896. Monotonic Array](concepts/array/896.-monotonic-array.md)
+* [String](concepts/string.md)
 * [Disjoint Set / Union Find](concepts/disjoint-set-union-find.md)
 * [Graph](concepts/graph.md)
 * [BFS](concepts/bfs/README.md)
@@ -128,8 +131,10 @@
 * [819. Most Common Word](leetcode-problems/819.-most-common-word.md)
 * [836. Rectangle Overlap](leetcode-problems/836.-rectangle-overlap.md)
 * [844. Backspace String Compare](leetcode-problems/844.-backspace-string-compare.md)
+* [824. Goat Latin](leetcode-problems/824.-goat-latin.md)
 * [863. All Nodes Distance K in Binary Tree](leetcode-problems/863.-all-nodes-distance-k-in-binary-tree.md)
 * [877. Stone Game](leetcode-problems/877.-stone-game.md)
+* [896. Monotonic Array](leetcode-problems/896.-monotonic-array.md)
 * [935. Knight Dialer](leetcode-problems/935.-knight-dialer.md)
 * [938. Range Sum of BST](leetcode-problems/938.-range-sum-of-bst.md)
 * [947. Most Stones Removed with Same Row or Column](leetcode-problems/947.-most-stones-removed-with-same-row-or-column.md)
