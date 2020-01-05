@@ -158,4 +158,6 @@
 * [1108. Defanging an IP Address](leetcode-problems/1108.-defanging-an-ip-address.md)
 * [1122. Relative Sort Array](leetcode-problems/1122.-relative-sort-array.md)
 * [1143. Longest Common Subsequence](leetcode-problems/1143.-longest-common-subsequence.md)
+* [1170. Compare Strings by Frequency of the Smallest Character](leetcode-problems/1170.-compare-strings-by-frequency-of-the-smallest-character.md)
+* [1249. Minimum Remove to Make Valid Parentheses](leetcode-problems/1249.-minimum-remove-to-make-valid-parentheses.md)
 
