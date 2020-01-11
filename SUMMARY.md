@@ -25,6 +25,8 @@
   * [472. Concatenated Words](concepts/dfs/472.-concatenated-words.md)
 * [Two Pointers](concepts/two-pointers/README.md)
   * [844. Backspace String Compare](concepts/two-pointers/844.-backspace-string-compare.md)
+* [Sliding Window](concepts/sliding-window/README.md)
+  * [1151. Minimum Swaps to Group All 1's Together](concepts/sliding-window/1151.-minimum-swaps-to-group-all-1s-together.md)
 * [Dynamic Programming](concepts/dynamic-programming/README.md)
   * [Partition](concepts/dynamic-programming/partition/README.md)
     * [91. Decode Ways](concepts/dynamic-programming/partition/91.-decode-ways.md)
