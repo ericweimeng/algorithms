@@ -130,6 +130,7 @@
 * [659. Split Array into Consecutive Subsequences](leetcode-problems/659.-split-array-into-consecutive-subsequences.md)
 * [680. Valid Palindrome II](leetcode-problems/680.-valid-palindrome-ii.md)
 * [688. Knight Probability in Chessboard](leetcode-problems/688.-knight-probability-in-chessboard.md)
+* [694. Number of Distinct Islands](leetcode-problems/694.-number-of-distinct-islands.md)
 * [695. Max Area of Island](leetcode-problems/695.-max-area-of-island.md)
 * [706. Design HashMap](leetcode-problems/706.-design-hashmap.md)
 * [713. Subarray Product Less Than K](leetcode-problems/713.-subarray-product-less-than-k.md)
