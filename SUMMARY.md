@@ -175,5 +175,6 @@
 * [1143. Longest Common Subsequence](leetcode-problems/1143.-longest-common-subsequence.md)
 * [1153. String Transforms Into Another String](leetcode-problems/1153.-string-transforms-into-another-string.md)
 * [1170. Compare Strings by Frequency of the Smallest Character](leetcode-problems/1170.-compare-strings-by-frequency-of-the-smallest-character.md)
+* [1192. Critical Connections in a Network](leetcode-problems/1192.-critical-connections-in-a-network.md)
 * [1249. Minimum Remove to Make Valid Parentheses](leetcode-problems/1249.-minimum-remove-to-make-valid-parentheses.md)
 
