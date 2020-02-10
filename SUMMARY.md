@@ -66,6 +66,7 @@
 * [42. Trapping Rain Water](leetcode-problems/42.-trapping-rain-water.md)
 * [44. Wildcard Matching](leetcode-problems/44.-wildcard-matching.md)
 * [47. Permutations II](leetcode-problems/47.-permutations-ii.md)
+* [53. Maximum Subarray](leetcode-problems/53.-maximum-subarray.md)
 * [62. Unique Paths](leetcode-problems/62.-unique-paths.md)
 * [63. Unique Paths II](leetcode-problems/63.-unique-paths-ii.md)
 * [64. Minimum Path Sum](leetcode-problems/64.-minimum-path-sum.md)
