@@ -6,6 +6,7 @@
 
 * [Array](concepts/array/README.md)
   * [896. Monotonic Array](concepts/array/896.-monotonic-array.md)
+* [Divide and Conquer](concepts/divide-and-conquer.md)
 * [String](concepts/string.md)
 * [Disjoint Set / Union Find](concepts/disjoint-set-union-find.md)
 * [Graph](concepts/graph.md)
