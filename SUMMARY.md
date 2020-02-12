@@ -181,4 +181,5 @@
 * [1170. Compare Strings by Frequency of the Smallest Character](leetcode-problems/1170.-compare-strings-by-frequency-of-the-smallest-character.md)
 * [1192. Critical Connections in a Network](leetcode-problems/1192.-critical-connections-in-a-network.md)
 * [1249. Minimum Remove to Make Valid Parentheses](leetcode-problems/1249.-minimum-remove-to-make-valid-parentheses.md)
+* [1268. Search Suggestions System](leetcode-problems/1268.-search-suggestions-system.md)
 
