@@ -8,6 +8,7 @@
   * [896. Monotonic Array](concepts/array/896.-monotonic-array.md)
 * [Divide and Conquer](concepts/divide-and-conquer.md)
 * [String](concepts/string.md)
+* [Binary & Bitwise](concepts/binary-and-bitwise.md)
 * [Disjoint Set / Union Find](concepts/disjoint-set-union-find.md)
 * [Graph](concepts/graph.md)
 * [BFS](concepts/bfs/README.md)
@@ -59,6 +60,7 @@
 ## LeetCode Problems Lib <a id="leetcode-problems"></a>
 
 * [0. Best Time to Buy and Sell Stock Series](leetcode-problems/01.-best-time-to-buy-and-sell-stock-series.md)
+* [1. Two Sum](leetcode-problems/1.-two-sum.md)
 * [5. Longest Palindromic Substring](leetcode-problems/5.-longest-palindromic-substring.md)
 * [10. Regular Expression Matching](leetcode-problems/10.-regular-expression-matching.md)
 * [32. Longest Valid Parentheses](leetcode-problems/32.-longest-valid-parentheses.md)
@@ -115,6 +117,7 @@
 * [426. Convert Binary Search Tree to Sorted Doubly Linked List](leetcode-problems/426.-convert-binary-search-tree-to-sorted-doubly-linked-list.md)
 * [438. Find All Anagrams in a String](leetcode-problems/438.-find-all-anagrams-in-a-string.md)
 * [443. String Compression](leetcode-problems/443.-string-compression.md)
+* [456. 132 Pattern](leetcode-problems/456.-132-pattern.md)
 * [472. Concatenated Words](leetcode-problems/472.-concatenated-words.md)
 * [474. Ones and Zeroes](leetcode-problems/474.-ones-and-zeroes.md)
 * [482. License Key Formatting](leetcode-problems/482.-license-key-formatting.md)
