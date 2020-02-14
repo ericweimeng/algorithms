@@ -2,6 +2,8 @@
 
 * [Algorithms](README.md)
 
+## Company Category
+
 ## Concepts
 
 * [Array](concepts/array/README.md)
