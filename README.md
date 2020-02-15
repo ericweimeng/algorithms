@@ -38,3 +38,14 @@ Rough estimation: $$10^{6}$$ ~ $$10^{7}$$ ops/sec based on time complexity, so i
 * &lt; INT\_MAX: O\(logn\), binary search
 * &lt; INT\_MAX: O\(1\) Math
 
+## Amazon Questions Quick Links
+
+### OA
+
+* [1.Two Sum](leetcode-problems/1.-two-sum.md)
+* [994. Rotting Oranges](leetcode-problems/994.-rotting-oranges.md)
+* [1102. Path With Maximum Minimum Value](leetcode-problems/1102.-path-with-maximum-minimum-value.md)
+* [1192. Critical Connections in a Network](leetcode-problems/1192.-critical-connections-in-a-network.md)
+
+{% page-ref page="./" %}
+
