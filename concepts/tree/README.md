@@ -82,7 +82,7 @@ def postorder_travseral(root):
 
 ### **Successor and Precursor**
 
-In inorder traversal, the **successor** is the node that **comes after current node**, and the **precursor** is the node that **comes before current node**.
+In inorder traversal, the **successor** is the node that **comes after the current node**, and the **precursor** is the node that **comes before the current node**.
 
 ```text
 in tree:  
@@ -122,7 +122,7 @@ preorder plus ',' : '1,2,4,#,#,5,#,#,3,6,#,#,7,#,#'
 
 ### **Balanced Binary Tree**
 
-A binary tree in which the height of the two subtrees of _every_ node never differ by more than 1.
+A binary tree with which the height of the two subtrees of _every_ node never differ by more than 1.
 
 To determine if a binary tree is a balanced binary tree
 
@@ -186,9 +186,9 @@ class Solution:
 ### Traversal vs Divide & Conquer
 
 * Traversal
-  * Traversal is a process of going down a searching path and access each node only once. Utilize global variable to record the result. Usually there's no return value from a traversal and result is passed in as parameter
+  * Traversal is a process of going down a searching path and access each node only once. Utilize global variable to record the result. Usually there's no return value from a traversal and result is passed in as parameters
 * Divide and Conquer
-  * Break down one problem into many sub-problems, and the combinations of the solutions of all sub-problems is the result of this problem. It usually requires a return value from each sub-problems
+  * Break down one problem into many sub-problems, and the combinations of the solutions of all sub-problems is the result of this problem. It usually requires a return value from each sub-problem
 * They are both recursion algorithm
 * result in parameter vs result in return value
 * Top down vs Bottom up

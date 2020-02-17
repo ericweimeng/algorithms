@@ -187,6 +187,7 @@
 * [1091. Shortest Path in Binary Matrix](leetcode-problems/1091.-shortest-path-in-binary-matrix.md)
 * [1102. Path With Maximum Minimum Value](leetcode-problems/1102.-path-with-maximum-minimum-value.md)
 * [1108. Defanging an IP Address](leetcode-problems/1108.-defanging-an-ip-address.md)
+* [1120. Maximum Average Subtree](leetcode-problems/1120.-maximum-average-subtree.md)
 * [1122. Relative Sort Array](leetcode-problems/1122.-relative-sort-array.md)
 * [1143. Longest Common Subsequence](leetcode-problems/1143.-longest-common-subsequence.md)
 * [1153. String Transforms Into Another String](leetcode-problems/1153.-string-transforms-into-another-string.md)
