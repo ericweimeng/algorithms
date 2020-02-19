@@ -60,7 +60,7 @@
 ## LeetCode Problems Lib <a id="leetcode-problems"></a>
 
 * [0. Longest string made up of only vowels](leetcode-problems/0.-longest-string-made-up-of-only-vowels.md)
-* [Top N Buzzwords](leetcode-problems/top-n-buzzwords.md)
+* [0. Top N Buzzwords](leetcode-problems/top-n-buzzwords.md)
 * [0. Best Time to Buy and Sell Stock Series](leetcode-problems/01.-best-time-to-buy-and-sell-stock-series.md)
 * [1. Two Sum](leetcode-problems/1.-two-sum.md)
 * [5. Longest Palindromic Substring](leetcode-problems/5.-longest-palindromic-substring.md)

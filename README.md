@@ -43,6 +43,7 @@ Rough estimation: $$10^{6}$$ ~ $$10^{7}$$ ops/sec based on time complexity, so i
 ### OA
 
 * [0. Longest string made up of only vowels](leetcode-problems/0.-longest-string-made-up-of-only-vowels.md)
+* [0. Top N Buzzwords](leetcode-problems/top-n-buzzwords.md)
 * [1.Two Sum](leetcode-problems/1.-two-sum.md)
 * 692. Top K Frequent Words / 0. Top K Frequent Words
 * [994. Rotting Oranges](leetcode-problems/994.-rotting-oranges.md)
