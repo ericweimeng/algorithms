@@ -59,6 +59,7 @@
 
 ## LeetCode Problems Lib <a id="leetcode-problems"></a>
 
+* [0. Find Pair With Given Sum](leetcode-problems/0.-find-pair-with-given-sum.md)
 * [0. Longest string made up of only vowels](leetcode-problems/0.-longest-string-made-up-of-only-vowels.md)
 * [0. Top N Buzzwords](leetcode-problems/top-n-buzzwords.md)
 * [0. Best Time to Buy and Sell Stock Series](leetcode-problems/01.-best-time-to-buy-and-sell-stock-series.md)
