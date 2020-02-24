@@ -188,6 +188,7 @@
 * [1049. Last Stone Weight II](leetcode-problems/1049.-last-stone-weight-ii.md)
 * [1055. Shortest Way to Form String](leetcode-problems/1055.-shortest-way-to-form-string.md)
 * [1057. Campus Bikes](leetcode-problems/untitled.md)
+* [1060. Missing Element in Sorted Array](leetcode-problems/1060.-missing-element-in-sorted-array.md)
 * [1066. Campus Bikes II](leetcode-problems/1066.-campus-bikes-ii.md)
 * [1091. Shortest Path in Binary Matrix](leetcode-problems/1091.-shortest-path-in-binary-matrix.md)
 * [1102. Path With Maximum Minimum Value](leetcode-problems/1102.-path-with-maximum-minimum-value.md)
