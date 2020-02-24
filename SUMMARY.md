@@ -165,6 +165,7 @@
 * [844. Backspace String Compare](leetcode-problems/844.-backspace-string-compare.md)
 * [824. Goat Latin](leetcode-problems/824.-goat-latin.md)
 * [863. All Nodes Distance K in Binary Tree](leetcode-problems/863.-all-nodes-distance-k-in-binary-tree.md)
+* [875. Koko Eating Bananas](leetcode-problems/875.-koko-eating-bananas.md)
 * [877. Stone Game](leetcode-problems/877.-stone-game.md)
 * [896. Monotonic Array](leetcode-problems/896.-monotonic-array.md)
 * [935. Knight Dialer](leetcode-problems/935.-knight-dialer.md)
