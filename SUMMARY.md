@@ -201,4 +201,5 @@
 * [1192. Critical Connections in a Network](leetcode-problems/1192.-critical-connections-in-a-network.md)
 * [1249. Minimum Remove to Make Valid Parentheses](leetcode-problems/1249.-minimum-remove-to-make-valid-parentheses.md)
 * [1268. Search Suggestions System](leetcode-problems/1268.-search-suggestions-system.md)
+* [1283. Find the Smallest Divisor Given a Threshold](leetcode-problems/1283.-find-the-smallest-divisor-given-a-threshold.md)
 
