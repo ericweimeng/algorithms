@@ -179,6 +179,7 @@
 * [1002. Find Common Characters](leetcode-problems/1002.-find-common-characters.md)
 * [1007. Minimum Domino Rotations For Equal Row](leetcode-problems/1007.-minimum-domino-rotations-for-equal-row.md)
 * [1010. Pairs of Songs With Total Durations Divisible by 60](leetcode-problems/1010.-pairs-of-songs-with-total-durations-divisible-by-60.md)
+* [1011. Capacity To Ship Packages Within D Days](leetcode-problems/1011.-capacity-to-ship-packages-within-d-days.md)
 * [1024. Video Stitching](leetcode-problems/1024.-video-stitching.md)
 * [1027. Longest Arithmetic Sequence](leetcode-problems/1027.-longest-arithmetic-sequence.md)
 * [1046. Last Stone Weight](leetcode-problems/1046.-last-stone-weight.md)
