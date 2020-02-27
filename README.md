@@ -49,7 +49,7 @@ Rough estimation: $$10^{6}$$ ~ $$10^{7}$$ ops/sec based on time complexity, so i
 * [994. Rotting Oranges](leetcode-problems/994.-rotting-oranges.md)
 * [1102. Path With Maximum Minimum Value](leetcode-problems/1102.-path-with-maximum-minimum-value.md)
 * [1167. Minimum Cost to Connect Sticks](leetcode-problems/1167.-minimum-cost-to-connect-sticks.md)
-* [1192. Critical Connections in a Network](leetcode-problems/1192.-critical-connections-in-a-network.md)
+* [1192. Critical Connections in a Network](leetcode-problems/1192.-critical-connections-in-a-network-1.md)
 * [1268. Search Suggestions System / Product Suggestion](leetcode-problems/1268.-search-suggestions-system.md)
 
 {% page-ref page="./" %}
