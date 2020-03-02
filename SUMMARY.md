@@ -21,7 +21,7 @@
 * [Stack](concepts/stack/README.md)
   * [636. Exclusive Time of Functions](concepts/stack/636.-exclusive-time-of-functions.md)
 * [Queue](concepts/queue.md)
-* [Binary Search and Sweep Line](concepts/binary-search-and-sweeping-line.md)
+* [Binary Search](concepts/binary-search-and-sweeping-line.md)
 * [DFS](concepts/dfs/README.md)
   * [93. Restore IP Addresses](concepts/dfs/93.-restore-ip-addresses.md)
   * [472. Concatenated Words](concepts/dfs/472.-concatenated-words.md)
