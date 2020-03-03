@@ -72,6 +72,7 @@
 * [10. Regular Expression Matching](leetcode-problems/10.-regular-expression-matching.md)
 * [32. Longest Valid Parentheses](leetcode-problems/32.-longest-valid-parentheses.md)
 * [33. Search in Rotated Sorted Array](leetcode-problems/33.-search-in-rotated-sorted-array.md)
+* [34. Find First and Last Position of Element in Sorted Array](leetcode-problems/34.-find-first-and-last-position-of-element-in-sorted-array.md)
 * [39. Combination Sum](leetcode-problems/39.-combination-sum.md)
 * [40. Combination Sum II](leetcode-problems/40.-combination-sum-ii.md)
 * [42. Trapping Rain Water](leetcode-problems/42.-trapping-rain-water.md)
