@@ -15,6 +15,7 @@ Github link for code: [here](https://github.com/ericweimeng/csbase/tree/master/a
 * 找规律从小的数据量开始 starting from small set of data
 * 寻找反例去尝试验证当前结论 try beating your conclusion
 * 考虑 corner case
+* 大问题分解为小问题，小问题分解为原子问题，递归思想。
 
 ## Input Size and Time Complexity
 
