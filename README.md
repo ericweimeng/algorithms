@@ -63,6 +63,8 @@ Rough estimation: $$10^{6}$$ ~ $$10^{7}$$ ops/sec based on time complexity, so i
 * Things to keep in mind:
   * if coordinates in matrix
   * duplicate visit
+  * pattern discovery
+    * try draw lines to connect points
 
 ## Follow ups
 
