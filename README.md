@@ -10,8 +10,11 @@ Github link for code: [here](https://github.com/ericweimeng/csbase/tree/master/a
 
 ## Ways of thinking
 
-* Counterintuitive Thinking
-* Backward Reasoning
+* 逆向思维 backward reasoning
+  * 如果是这个是结果会有什么性质
+* 找规律从小的数据量开始 starting from small set of data
+* 寻找反例去尝试验证当前结论 try beating your conclusion
+* 考虑 corner case
 
 ## Input Size and Time Complexity
 
@@ -53,4 +56,40 @@ Rough estimation: $$10^{6}$$ ~ $$10^{7}$$ ops/sec based on time complexity, so i
 * [1268. Search Suggestions System / Product Suggestion](leetcode-problems/1268.-search-suggestions-system.md)
 
 {% page-ref page="./" %}
+
+## Matrix problems
+
+* Things to keep in mind:
+  * if coordinates in matrix
+  * duplicate visit
+
+## Follow ups
+
+## General checklist for a coding problem
+
+* input
+  * numbers
+    * signed or unsigned
+    * how large and small
+    * type
+      * int
+      * float
+      * string format
+  * list
+    * type of the elements
+  * empty
+* output
+  * type
+    * bool
+    * numbers
+    * list
+      * nested list
+    * string
+    * dict
+    * null
+    * ...
+* Specific checking
+  * link list
+    * cycle
+    * 
 
