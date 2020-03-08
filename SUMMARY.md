@@ -82,6 +82,7 @@
 * [62. Unique Paths](leetcode-problems/62.-unique-paths.md)
 * [63. Unique Paths II](leetcode-problems/63.-unique-paths-ii.md)
 * [64. Minimum Path Sum](leetcode-problems/64.-minimum-path-sum.md)
+* [67. Add Binary](leetcode-problems/67.-add-binary.md)
 * [71. Simplify Path](leetcode-problems/71.-simplify-path.md)
 * [72. Edit Distance](leetcode-problems/72.-edit-distance.md)
 * [81. Search in Rotated Sorted Array II](leetcode-problems/81.-search-in-rotated-sorted-array-ii.md)
