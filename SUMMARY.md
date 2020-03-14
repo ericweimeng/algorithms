@@ -64,6 +64,8 @@
 ## LeetCode Problems Lib <a id="leetcode-problems"></a>
 
 * [0. Find Pair With Given Sum](leetcode-problems/0.-find-pair-with-given-sum.md)
+* [0. Zombie Matrix](leetcode-problems/0.-zombie-matrix.md)
+* [0. Load Balancer](leetcode-problems/0.-load-balancer.md)
 * [0. Longest string made up of only vowels](leetcode-problems/0.-longest-string-made-up-of-only-vowels.md)
 * [0. Top N Buzzwords](leetcode-problems/top-n-buzzwords.md)
 * [0. Best Time to Buy and Sell Stock Series](leetcode-problems/01.-best-time-to-buy-and-sell-stock-series.md)
@@ -185,6 +187,7 @@
 * [877. Stone Game](leetcode-problems/877.-stone-game.md)
 * [896. Monotonic Array](leetcode-problems/896.-monotonic-array.md)
 * [935. Knight Dialer](leetcode-problems/935.-knight-dialer.md)
+* [937. Reorder Data in Log Files](leetcode-problems/937.-reorder-data-in-log-files.md)
 * [938. Range Sum of BST](leetcode-problems/938.-range-sum-of-bst.md)
 * [947. Most Stones Removed with Same Row or Column](leetcode-problems/947.-most-stones-removed-with-same-row-or-column.md)
 * [953. Verifying an Alien Dictionary](leetcode-problems/953.-verifying-an-alien-dictionary.md)

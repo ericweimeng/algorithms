@@ -50,11 +50,13 @@ Rough estimation: $$10^{6}$$ ~ $$10^{7}$$ ops/sec based on time complexity, so i
 * [0. Top N Buzzwords](leetcode-problems/top-n-buzzwords.md)
 * [1.Two Sum](leetcode-problems/1.-two-sum.md)
 * 692. Top K Frequent Words / 0. Top K Frequent Words
+* [200. Number of Islands](leetcode-problems/200.-number-of-islands.md)
 * [994. Rotting Oranges](leetcode-problems/994.-rotting-oranges.md)
 * [1102. Path With Maximum Minimum Value](leetcode-problems/1102.-path-with-maximum-minimum-value.md)
 * [1167. Minimum Cost to Connect Sticks](leetcode-problems/1167.-minimum-cost-to-connect-sticks.md)
 * [1192. Critical Connections in a Network](leetcode-problems/1192.-critical-connections-in-a-network-1.md)
 * [1268. Search Suggestions System / Product Suggestion](leetcode-problems/1268.-search-suggestions-system.md)
+* [937. Reorder Data in Log Files](leetcode-problems/937.-reorder-data-in-log-files.md)
 
 {% page-ref page="./" %}
 
