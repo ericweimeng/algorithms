@@ -63,6 +63,7 @@
 
 ## LeetCode Problems Lib <a id="leetcode-problems"></a>
 
+* [0. Treasure Island](leetcode-problems/0.-treasure-island.md)
 * [0. Find Pair With Given Sum](leetcode-problems/0.-find-pair-with-given-sum.md)
 * [0. Zombie Matrix](leetcode-problems/0.-zombie-matrix.md)
 * [0. Load Balancer](leetcode-problems/0.-load-balancer.md)
