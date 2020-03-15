@@ -100,6 +100,7 @@
 * [123. Best Time to Buy and Sell Stock III](leetcode-problems/123.-best-time-to-buy-and-sell-stock-iii.md)
 * [131. Palindrome Partitioning](leetcode-problems/131.-palindrome-partitioning.md)
 * [132. Palindrome Partitioning II](leetcode-problems/132.-palindrome-partitioning-ii.md)
+* [138. Copy List with Random Pointer](leetcode-problems/138.-copy-list-with-random-pointer.md)
 * [146. LRU Cache](leetcode-problems/146.-lru-cache.md)
 * [168. Excel Sheet Column Title](leetcode-problems/168.-excel-sheet-column-title.md)
 * [188. Best Time to Buy and Sell Stock IV](leetcode-problems/188.-best-time-to-buy-and-sell-stock-iv.md)

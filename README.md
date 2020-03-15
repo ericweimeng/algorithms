@@ -58,7 +58,8 @@ Rough estimation: $$10^{6}$$ ~ $$10^{7}$$ ops/sec based on time complexity, so i
 * [1268. Search Suggestions System / Product Suggestion](leetcode-problems/1268.-search-suggestions-system.md)
 * [937. Reorder Data in Log Files](leetcode-problems/937.-reorder-data-in-log-files.md)
 * [1167. Minimum Cost to Connect Sticks / Min Cost to Connect Ropes / Min Time to Merge Files](leetcode-problems/1167.-minimum-cost-to-connect-sticks.md)
-* 
+* [138. Copy List with Random Pointer](leetcode-problems/138.-copy-list-with-random-pointer.md)
+
 {% page-ref page="./" %}
 
 ## Matrix problems
