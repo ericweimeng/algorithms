@@ -149,6 +149,7 @@
 * [474. Ones and Zeroes](leetcode-problems/474.-ones-and-zeroes.md)
 * [482. License Key Formatting](leetcode-problems/482.-license-key-formatting.md)
 * [494. Target Sum](leetcode-problems/494.-target-sum.md)
+* [498. Diagonal Traverse](leetcode-problems/498.-diagonal-traverse.md)
 * [509. Fibonacci Number](leetcode-problems/509.-fibonacci-number.md)
 * [516. Longest Palindromic Subsequence](leetcode-problems/516.-longest-palindromic-subsequence.md)
 * [518. Coin Change 2](leetcode-problems/518.-coin-change-2.md)
