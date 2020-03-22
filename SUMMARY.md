@@ -2,6 +2,10 @@
 
 * [Algorithms](README.md)
 
+## Python Language
+
+* [String](python-language/string.md)
+
 ## Concepts
 
 * [Array](concepts/array/README.md)
