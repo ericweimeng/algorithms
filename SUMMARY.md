@@ -123,6 +123,7 @@
 * [240. Search a 2D Matrix II](leetcode-problems/240.-search-a-2d-matrix-ii.md)
 * [246. Strobogrammatic Number](leetcode-problems/246.-strobogrammatic-number.md)
 * [247. Strobogrammatic Number II](leetcode-problems/247.-strobogrammatic-number-ii.md)
+* [249. Group Shifted Strings](leetcode-problems/249.-group-shifted-strings.md)
 * [256. Paint House](leetcode-problems/256.-paint-house.md)
 * [264. Ugly Number II](leetcode-problems/264.-ugly-number-ii.md)
 * [265. Paint House II](leetcode-problems/265.-paint-house-ii.md)
