@@ -113,6 +113,7 @@
 * [198. House Robber](leetcode-problems/198.-house-robber.md)
 * [200. Number of Islands](leetcode-problems/200.-number-of-islands.md)
 * [208. Implement Trie \(Prefix Tree\)](leetcode-problems/208.-implement-trie-prefix-tree.md)
+* [211. Add and Search Word - Data structure design](leetcode-problems/211.-add-and-search-word-data-structure-design.md)
 * [212. Word Search II](leetcode-problems/212.-word-search-ii.md)
 * [216. Combination Sum III](leetcode-problems/216.-combination-sum-iii.md)
 * [221. Maximal Square](leetcode-problems/221.-maximal-square.md)
