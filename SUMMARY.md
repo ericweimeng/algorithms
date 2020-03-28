@@ -84,6 +84,7 @@
 * [39. Combination Sum](leetcode-problems/39.-combination-sum.md)
 * [40. Combination Sum II](leetcode-problems/40.-combination-sum-ii.md)
 * [42. Trapping Rain Water](leetcode-problems/42.-trapping-rain-water.md)
+* [43. Multiply Strings](leetcode-problems/43.-multiply-strings.md)
 * [44. Wildcard Matching](leetcode-problems/44.-wildcard-matching.md)
 * [47. Permutations II](leetcode-problems/47.-permutations-ii.md)
 * [53. Maximum Subarray](leetcode-problems/53.-maximum-subarray.md)
