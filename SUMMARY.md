@@ -109,6 +109,8 @@
 * [131. Palindrome Partitioning](leetcode-problems/131.-palindrome-partitioning.md)
 * [132. Palindrome Partitioning II](leetcode-problems/132.-palindrome-partitioning-ii.md)
 * [138. Copy List with Random Pointer](leetcode-problems/138.-copy-list-with-random-pointer.md)
+* [139. Word Break](leetcode-problems/139.-word-break.md)
+* [140. Word Break II](leetcode-problems/140.-word-break-ii.md)
 * [146. LRU Cache](leetcode-problems/146.-lru-cache.md)
 * [168. Excel Sheet Column Title](leetcode-problems/168.-excel-sheet-column-title.md)
 * [188. Best Time to Buy and Sell Stock IV](leetcode-problems/188.-best-time-to-buy-and-sell-stock-iv.md)
