@@ -57,17 +57,17 @@ description: 'Amazon, OA'
 from collections import Counter
 import heapq
 def toy_freq(num_toys, top_toys, toys, num_quotes, quotes):
-  m = {toy: (0, 0) for toy in toys}
+  if not toys or not quotes: return []
+  m = {toy: 0 for toy in toys}
   for toy in toys:
     for quote in quotes:
-      q_r = map(lambda x: x.lower(), quote.split(' '))
+      q_r = quote.lower().split(' ')
       if toy in q_r:
         m_line_freq = Counter(q_r)
-        m[toy] = (m.get(toy)[0] - m_line_freq.get(toy, 0), m.get(toy)[1] - 1)
-  q = [(val[0], val[1], key) for key, val in m.items()]
+        m[toy] = m.get(toy) - m_line_freq.get(toy, 0)
+  q = [(val, key) for key, val in m.items()]
   heapq.heapify(q)
-  res = heapq.nsmallest(top_toys, q)
-  res = list(map(lambda x: x[2], res))
+  res = list(map(lambda x: x[1], heapq.nsmallest(top_toys, q)))
   return res
 ```
 
