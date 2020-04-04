@@ -216,6 +216,7 @@
 * [938. Range Sum of BST](leetcode-problems/938.-range-sum-of-bst.md)
 * [947. Most Stones Removed with Same Row or Column](leetcode-problems/947.-most-stones-removed-with-same-row-or-column.md)
 * [953. Verifying an Alien Dictionary](leetcode-problems/953.-verifying-an-alien-dictionary.md)
+* [958. Check Completeness of a Binary Tree](leetcode-problems/958.-check-completeness-of-a-binary-tree.md)
 * [973. K Closest Points to Origin](leetcode-problems/973.-k-closest-points-to-origin.md)
 * [977. Squares of a Sorted Array](leetcode-problems/977.-squares-of-a-sorted-array.md)
 * [978. Longest Turbulent Subarray](leetcode-problems/978.-longest-turbulent-subarray.md)
