@@ -134,6 +134,7 @@
 * [256. Paint House](leetcode-problems/256.-paint-house.md)
 * [264. Ugly Number II](leetcode-problems/264.-ugly-number-ii.md)
 * [265. Paint House II](leetcode-problems/265.-paint-house-ii.md)
+* [270. Closest Binary Search Tree Value](leetcode-problems/270.-closest-binary-search-tree-value.md)
 * [273. Integer to English Words](leetcode-problems/273.-integer-to-english-words.md)
 * [278. First Bad Version](leetcode-problems/278.-first-bad-version.md)
 * [286. Walls and Gates](leetcode-problems/286.-walls-and-gates.md)
