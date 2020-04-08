@@ -105,4 +105,5 @@ Rough estimation: $$10^{6}$$ ~ $$10^{7}$$ ops/sec based on time complexity, so i
 ## General Thoughts
 
 * if you want to return from a function immediately, then might just consider to not use dfs recursion and use traverse like 'while'
+* 如果有按某一key去group相似的数据在一起的这类题可以考虑用hashmap, 比如相同的prefix，age, level of a tree
 
