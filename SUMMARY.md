@@ -185,6 +185,7 @@
 * [646. Maximum Length of Pair Chain](leetcode-problems/646.-maximum-length-of-pair-chain.md)
 * [658. Find K Closest Elements](leetcode-problems/658.-find-k-closest-elements.md)
 * [659. Split Array into Consecutive Subsequences](leetcode-problems/659.-split-array-into-consecutive-subsequences.md)
+* [670. Maximum Swap](leetcode-problems/670.-maximum-swap.md)
 * [680. Valid Palindrome II](leetcode-problems/680.-valid-palindrome-ii.md)
 * [688. Knight Probability in Chessboard](leetcode-problems/688.-knight-probability-in-chessboard.md)
 * [694. Number of Distinct Islands](leetcode-problems/694.-number-of-distinct-islands.md)
