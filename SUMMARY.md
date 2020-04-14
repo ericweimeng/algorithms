@@ -180,7 +180,6 @@
 * [518. Coin Change 2](leetcode-problems/518.-coin-change-2.md)
 * [523. Continuous Subarray Sum](leetcode-problems/523.-continuous-subarray-sum.md)
 * [525. Contiguous Array](leetcode-problems/525.-contiguous-array.md)
-* [529. Minesweeper](leetcode-problems/529.-minesweeper.md)
 * [547. Friend Circles](leetcode-problems/547.-friend-circles.md)
 * [543. Diameter of Binary Tree](leetcode-problems/543.-diameter-of-binary-tree.md)
 * [560. Subarray Sum Equals K](leetcode-problems/560.-subarray-sum-equals-k.md)
