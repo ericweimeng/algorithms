@@ -1,5 +1,11 @@
 # Graph
 
+## Key points
+
+* Cycles
+  * visited set or dictionary
+* Disconnected Components
+
 ## Graph Representation
 
 Graphs are mathematical structures that represent pairwise relationships between objects. A graph is a flow structure that represents the relationship between various objects. It can be visualized by using the following two basic components:
