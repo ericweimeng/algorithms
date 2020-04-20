@@ -107,4 +107,7 @@ Rough estimation: $$10^{6}$$ ~ $$10^{7}$$ ops/sec based on time complexity, so i
 * if you want to return from a function immediately, then might just consider to not use dfs recursion and use traverse like 'while'
 * 如果有按某一key去group相似的数据在一起的这类题可以考虑用hashmap, 比如相同的prefix，age, level of a tree
 * 字符串形式的数字在扫描每一位时要注意一个vaild的数字可能不止一位所以考虑去做 10 \* accumulated\_num + cur\_digit
+* **On a board**
+  * Check if current coordinate is within the range
+  * Check if current coordinate was visited before
 

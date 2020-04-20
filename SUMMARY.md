@@ -97,6 +97,7 @@
 * [67. Add Binary](leetcode-problems/67.-add-binary.md)
 * [71. Simplify Path](leetcode-problems/71.-simplify-path.md)
 * [72. Edit Distance](leetcode-problems/72.-edit-distance.md)
+* [78. Subsets](leetcode-problems/78.-subsets.md)
 * [81. Search in Rotated Sorted Array II](leetcode-problems/81.-search-in-rotated-sorted-array-ii.md)
 * [84. Largest Rectangle in Histogram](leetcode-problems/84.-largest-rectangle-in-histogram.md)
 * [87. Scramble String](leetcode-problems/87.-scramble-string.md)

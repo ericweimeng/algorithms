@@ -11,7 +11,7 @@
 * 递归的拆解
 * 递归的出口
 
-## Combination \(组合\)
+### Combination \(组合\)
 
 * Find all combinations that meets the requirements
 * Key to determine this is a combination problem
@@ -19,9 +19,17 @@
   * Time Complexity
     * 2^n related
 
-## Permutations \(排列\)
+### Permutations \(排列\)
 
-* 
+* Key to determine this is a permutation problem
+  * Orders of appearance masters
+  * Time Complexity
+    * n! related
+
+ 
+
+![](../../.gitbook/assets/78-ep236.png)
+
 ## Problems
 
 * [Nested List Weight Sum II](../../leetcode-problems/364.-nested-list-weight-sum-ii.md)
