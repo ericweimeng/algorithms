@@ -110,4 +110,9 @@ Rough estimation: $$10^{6}$$ ~ $$10^{7}$$ ops/sec based on time complexity, so i
 * **On a board**
   * Check if current coordinate is within the range
   * Check if current coordinate was visited before
+* **On a graph**
+  * Consider disconnected component
+  * Consider cycles
+    * Check visited
+* **While loop / double pointers, please remember to increase or decrease pointers**
 
