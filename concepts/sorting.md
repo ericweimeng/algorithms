@@ -1,10 +1,10 @@
 # Sorting
 
-### Bucket Sort
+## Bucket Sort
 
 Bucket sort, or bin sort, is a sorting algorithm that works by partitioning an array into a number of buckets. Each bucket is then sorted individually, either using a different sorting algorithm, or by recursively applying the bucket sorting algorithm.
 
-### Quick Sort
+## Quick Sort
 
 ### Version 1
 
@@ -58,4 +58,12 @@ if __name__ == '__main__':
     quick_sort(nums)
     print(nums)
 ```
+
+## Merge Sort
+
+Key Point for merge sort
+
+* Split
+  * To split elements until there's only one element \(base case\) which is sorted
+* Merge
 
