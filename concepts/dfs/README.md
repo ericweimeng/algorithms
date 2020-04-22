@@ -1,5 +1,13 @@
 # DFS
 
+## Recursion
+
+Function calls itself
+
+### Time & Space Complexity
+
+Space complexity is the maximum call stack of the recursion
+
 ## When to use DFS
 
 * Find all possible solutions

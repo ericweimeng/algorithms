@@ -68,6 +68,7 @@
 
 ## LeetCode Problems Lib <a id="leetcode-problems"></a>
 
+* [Parentheses](leetcode-problems/parentheses.md)
 * [0. Treasure Island](leetcode-problems/0.-treasure-island.md)
 * [0. Find Pair With Given Sum](leetcode-problems/0.-find-pair-with-given-sum.md)
 * [0. Zombie Matrix](leetcode-problems/0.-zombie-matrix.md)
@@ -201,6 +202,7 @@
 * [678. Valid Parenthesis String](leetcode-problems/678.-valid-parenthesis-string.md)
 * [680. Valid Palindrome II](leetcode-problems/680.-valid-palindrome-ii.md)
 * [688. Knight Probability in Chessboard](leetcode-problems/688.-knight-probability-in-chessboard.md)
+* [692. Top K Frequent Words](leetcode-problems/692.-top-k-frequent-words.md)
 * [694. Number of Distinct Islands](leetcode-problems/694.-number-of-distinct-islands.md)
 * [695. Max Area of Island](leetcode-problems/695.-max-area-of-island.md)
 * [703. Kth Largest Element in a Stream](leetcode-problems/703.-kth-largest-element-in-a-stream.md)
