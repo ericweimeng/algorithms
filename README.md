@@ -115,4 +115,5 @@ Rough estimation: $$10^{6}$$ ~ $$10^{7}$$ ops/sec based on time complexity, so i
   * Consider cycles
     * Check visited
 * **While loop / double pointers, please remember to increase or decrease pointers**
+* **When going through the code and doing checking, try imagining the process use real cases**
 

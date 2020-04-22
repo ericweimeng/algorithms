@@ -6,6 +6,30 @@ Bucket sort, or bin sort, is a sorting algorithm that works by partitioning an a
 
 ### Quick Sort
 
+### Version 1
+
+```python
+def quick_sort(a, i, j):
+    if a and i < j:
+        pivot = partition(a, i, j)
+        
+        quick_sort(a, i, pivot - 1)
+        quick_sort(a, pivot + 1, j)
+    
+def partition(a, lo, hi):
+    i = j = lo
+    pivot = a[hi]
+    while j < hi:
+        if a[j] < pivot:
+            a[i], a[j] = a[j], a[i]
+            i += 1
+        j += 1
+    a[i], a[hi] = a[hi], a[i]
+    return i
+```
+
+### Version 2
+
 ```python
 def quick_sort(nums):
     _sort(nums, 0, len(nums) - 1)
