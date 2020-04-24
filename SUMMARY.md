@@ -107,6 +107,7 @@
 * [93. Restore IP Addresses](leetcode-problems/93.-restore-ip-addresses.md)
 * [97. Interleaving String](leetcode-problems/97.-interleaving-string.md)
 * [98. Validate Binary Search Tree](leetcode-problems/98.-validate-binary-search-tree.md)
+* [101. Symmetric Tree](leetcode-problems/101.-symmetric-tree.md)
 * [104. Maximum Depth of Binary Tree](leetcode-problems/104.-maximum-depth-of-binary-tree.md)
 * [106. Construct Binary Tree from Inorder and Postorder Traversal](leetcode-problems/106.-construct-binary-tree-from-inorder-and-postorder-traversal.md)
 * [115. Distinct Subsequences](leetcode-problems/115.-distinct-subsequences.md)
