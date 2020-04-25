@@ -103,6 +103,7 @@
 * [81. Search in Rotated Sorted Array II](leetcode-problems/81.-search-in-rotated-sorted-array-ii.md)
 * [84. Largest Rectangle in Histogram](leetcode-problems/84.-largest-rectangle-in-histogram.md)
 * [87. Scramble String](leetcode-problems/87.-scramble-string.md)
+* [88. Merge Sorted Array](leetcode-problems/88.-merge-sorted-array.md)
 * [91. Decode Ways](leetcode-problems/91.-decode-ways.md)
 * [93. Restore IP Addresses](leetcode-problems/93.-restore-ip-addresses.md)
 * [97. Interleaving String](leetcode-problems/97.-interleaving-string.md)
