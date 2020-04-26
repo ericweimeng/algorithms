@@ -4,16 +4,18 @@
 
 Function calls itself
 
+* 写递归函数的时候递归函数体要考虑在这一点/一层/一块根据不同情况要做的事和等下一点/一层/一块递归完毕回来时当前点和递归回来的点之间的关系
+
 ### Time & Space Complexity
 
 Space complexity is the maximum call stack of the recursion
 
-## When to use DFS
+### When to use DFS
 
 * Find all possible solutions
 * 90% of the questions are permutations and combinations
 
-## 3 Elements of recursion
+### 3 Elements of recursion
 
 * 递归的定义
 * 递归的拆解

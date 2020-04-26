@@ -116,4 +116,10 @@ Rough estimation: $$10^{6}$$ ~ $$10^{7}$$ ops/sec based on time complexity, so i
     * Check visited
 * **While loop / double pointers, please remember to increase or decrease pointers**
 * **When going through the code and doing checking, try imagining the process use real cases**
+* Please watch out for '=' and '=='
+* If do list addition, checking if values on both sides of '+' are type of list
+* When doing graph/matrix\(and others\) dfs, checking if mark each to node that visited
+* Remember that path.sort\(\) returns nothing, it sorts the array in-place
+* For DFS or Non-recursive DFS, remember to **add next level elements** to stack/queue
+* When using stack to do level order traverse, it pops element from top of the stack, then it causes issue
 
