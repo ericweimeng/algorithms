@@ -158,6 +158,7 @@
 * [277. Find the Celebrity](leetcode-problems/277.-find-the-celebrity.md)
 * [278. First Bad Version](leetcode-problems/278.-first-bad-version.md)
 * [286. Walls and Gates](leetcode-problems/286.-walls-and-gates.md)
+* [287. Find the Duplicate Number](leetcode-problems/287.-find-the-duplicate-number.md)
 * [295. Find Median from Data Stream](leetcode-problems/295.-find-median-from-data-stream.md)
 * [298. Binary Tree Longest Consecutive Sequence](leetcode-problems/298.-binary-tree-longest-consecutive-sequence.md)
 * [300. Longest Increasing Subsequence](leetcode-problems/300.-longest-increasing-subsequence.md)
