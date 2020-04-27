@@ -82,6 +82,7 @@
 * [11. Container With Most Water](leetcode-problems/11.-container-with-most-water.md)
 * [21. Merge Two Sorted Lists](leetcode-problems/21.-merge-two-sorted-lists.md)
 * [23. Merge k Sorted Lists](leetcode-problems/23.-merge-k-sorted-lists.md)
+* [24. Swap Nodes in Pairs](leetcode-problems/24.-swap-nodes-in-pairs.md)
 * [25. Reverse Nodes in k-Group](leetcode-problems/25.-reverse-nodes-in-k-group.md)
 * [31. Next Permutation](leetcode-problems/31.-next-permutation.md)
 * [32. Longest Valid Parentheses](leetcode-problems/32.-longest-valid-parentheses.md)
