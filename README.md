@@ -122,4 +122,7 @@ Rough estimation: $$10^{6}$$ ~ $$10^{7}$$ ops/sec based on time complexity, so i
 * Remember that path.sort\(\) returns nothing, it sorts the array in-place
 * For DFS or Non-recursive DFS, remember to **add next level elements** to stack/queue
 * When using stack to do level order traverse, it pops element from top of the stack, then it causes issue
+* When to possibly use binary search
+  * give data set is sorted
+  * It is asked to find certain element or you are trying to find a certain characteristics appeared/happened at/from a certain point 
 
