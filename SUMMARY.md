@@ -87,6 +87,7 @@
 * [34. Find First and Last Position of Element in Sorted Array](leetcode-problems/34.-find-first-and-last-position-of-element-in-sorted-array.md)
 * [39. Combination Sum](leetcode-problems/39.-combination-sum.md)
 * [40. Combination Sum II](leetcode-problems/40.-combination-sum-ii.md)
+* [41. First Missing Positive](leetcode-problems/41.-first-missing-positive.md)
 * [42. Trapping Rain Water](leetcode-problems/42.-trapping-rain-water.md)
 * [43. Multiply Strings](leetcode-problems/43.-multiply-strings.md)
 * [44. Wildcard Matching](leetcode-problems/44.-wildcard-matching.md)
