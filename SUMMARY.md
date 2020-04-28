@@ -189,6 +189,7 @@
 * [378. Kth Smallest Element in a Sorted Matrix](leetcode-problems/378.-kth-smallest-element-in-a-sorted-matrix.md)
 * [380. Insert Delete GetRandom O\(1\)](leetcode-problems/380.-insert-delete-getrandom-o-1.md)
 * [398. Random Pick Index](leetcode-problems/398.-random-pick-index.md)
+* [399. Evaluate Division](leetcode-problems/399.-evaluate-division.md)
 * [415. Add Strings](leetcode-problems/415.-add-strings.md)
 * [416. Partition Equal Subset Sum](leetcode-problems/416.-partition-equal-subset-sum.md)
 * [419. Battleships in a Board](leetcode-problems/419.-battleships-in-a-board.md)
