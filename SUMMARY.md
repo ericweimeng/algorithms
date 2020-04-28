@@ -149,6 +149,7 @@
 * [221. Maximal Square](leetcode-problems/221.-maximal-square.md)
 * [223. Rectangle Area](leetcode-problems/223.-rectangle-area.md)
 * [225. Implement Stack using Queues](leetcode-problems/225.-implement-stack-using-queues.md)
+* [230. Kth Smallest Element in a BST](leetcode-problems/230.-kth-smallest-element-in-a-bst.md)
 * [235. Lowest Common Ancestor of a Binary Search Tree](leetcode-problems/235.-lowest-common-ancestor-of-a-binary-search-tree.md)
 * [238. Product of Array Except Self](leetcode-problems/238.-product-of-array-except-self.md)
 * [239. Sliding Window Maximum](leetcode-problems/239.-sliding-window-maximum.md)
