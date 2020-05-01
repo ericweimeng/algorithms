@@ -125,4 +125,13 @@ Rough estimation: $$10^{6}$$ ~ $$10^{7}$$ ops/sec based on time complexity, so i
 * When to possibly use binary search
   * give data set is sorted
   * It is asked to find certain element or you are trying to find a certain characteristics appeared/happened at/from a certain point 
+* floating
+  * **向上取整**
+    * print "math.ceil---" print "math.ceil\(2.3\) =&gt; ", math.ceil\(2.3\) print "math.ceil\(2.6\) =&gt; ", math.ceil\(2.6\)
+  * **向下取整**
+    * print "\nmath.floor---" print "math.floor\(2.3\) =&gt; ", math.floor\(2.3\) print "math.floor\(2.6\) =&gt; ", math.floor\(2.6\)
+  * **四舍五入**
+    * print "\nround---" print "round\(2.3\) =&gt; ", round\(2.3\) print "round\(2.6\) =&gt; ", round\(2.6\)
+
+      **这三个的返回结果都是浮点型**
 
