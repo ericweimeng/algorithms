@@ -1,6 +1,8 @@
 # Table of contents
 
 * [Algorithms](README.md)
+* [Companies](companies/README.md)
+  * [Facebook](companies/facebook.md)
 
 ## Python Language
 
@@ -169,6 +171,7 @@
 * [247. Strobogrammatic Number II](leetcode-problems/247.-strobogrammatic-number-ii.md)
 * [249. Group Shifted Strings](leetcode-problems/249.-group-shifted-strings.md)
 * [256. Paint House](leetcode-problems/256.-paint-house.md)
+* [257. Binary Tree Paths](leetcode-problems/257.-binary-tree-paths.md)
 * [264. Ugly Number II](leetcode-problems/264.-ugly-number-ii.md)
 * [265. Paint House II](leetcode-problems/265.-paint-house-ii.md)
 * [266. Palindrome Permutation](leetcode-problems/266.-palindrome-permutation.md)
@@ -188,6 +191,7 @@
 * [314. Binary Tree Vertical Order Traversal](leetcode-problems/314.-binary-tree-vertical-order-traversal.md)
 * [322. Coin Change](leetcode-problems/322.-coin-change.md)
 * [325. Maximum Size Subarray Sum Equals k](leetcode-problems/325.-maximum-size-subarray-sum-equals-k.md)
+* [332. Reconstruct Itinerary](leetcode-problems/332.-reconstruct-itinerary.md)
 * [336. Palindrome Pairs](leetcode-problems/336.-palindrome-pairs.md)
 * [338. Counting Bits](leetcode-problems/338.-counting-bits.md)
 * [340. Longest Substring with At Most K Distinct Characters](leetcode-problems/340.-longest-substring-with-at-most-k-distinct-characters.md)
