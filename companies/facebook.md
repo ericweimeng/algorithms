@@ -28,3 +28,13 @@ if __name__ == '__main__':
     print(res)
 ```
 
+[328. Odd Even Linked List](../leetcode-problems/328.-odd-even-linked-list.md)
+
+[896. Monotonic Array](../leetcode-problems/896.-monotonic-array.md)
+
+[953. Verifying an Alien Dictionary](../leetcode-problems/953.-verifying-an-alien-dictionary.md)
+
+[269. Alien Dictionary](../leetcode-problems/269.-alien-dictionary.md)
+
+\*\*\*\*
+
