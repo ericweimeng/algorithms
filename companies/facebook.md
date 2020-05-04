@@ -36,5 +36,5 @@ if __name__ == '__main__':
 
 [269. Alien Dictionary](../leetcode-problems/269.-alien-dictionary.md)
 
-\*\*\*\*
+[543. Diameter of Binary Tree](../leetcode-problems/543.-diameter-of-binary-tree.md)
 
