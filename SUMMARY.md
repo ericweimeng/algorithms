@@ -314,6 +314,7 @@
 * [978. Longest Turbulent Subarray](leetcode-problems/978.-longest-turbulent-subarray.md)
 * [979. Distribute Coins in Binary Tree](leetcode-problems/979.-distribute-coins-in-binary-tree.md)
 * [983. Minimum Cost For Tickets](leetcode-problems/983.-minimum-cost-for-tickets.md)
+* [986. Interval List Intersections](leetcode-problems/986.-interval-list-intersections.md)
 * [994. Rotting Oranges](leetcode-problems/994.-rotting-oranges.md)
 * [997. Find the Town Judge](leetcode-problems/997.-find-the-town-judge.md)
 * [1002. Find Common Characters](leetcode-problems/1002.-find-common-characters.md)

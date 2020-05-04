@@ -138,4 +138,5 @@ Rough estimation: $$10^{6}$$ ~ $$10^{7}$$ ops/sec based on time complexity, so i
     * print "\nround---" print "round\(2.3\) =&gt; ", round\(2.3\) print "round\(2.6\) =&gt; ", round\(2.6\)
 
       **这三个的返回结果都是浮点型**
+* **调用函数或递归时看清参数是否带齐！**
 
