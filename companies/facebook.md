@@ -2,7 +2,7 @@
 
 ## Phone Interview
 
-4/30号的店面，45mins，互相介绍5分钟，然后开始做题。一共一题然后有两问。不知道是不是力扣的原题。 给一个sorted int array，里面有duplicates，第一问求问count number of distinct value. 不能用extra space。 第二问，如果里面重复的数字很多，你要怎么样调整算法。 第一问直接two pointers，第二问 binary search + divide conquer
+* 4/30号的店面，45mins，互相介绍5分钟，然后开始做题。一共一题然后有两问。不知道是不是力扣的原题。 给一个sorted int array，里面有duplicates，第一问求问count number of distinct value. 不能用extra space。 第二问，如果里面重复的数字很多，你要怎么样调整算法。 第一问直接two pointers，第二问 binary search + divide conquer
 
 ```python
 def count_duplicate(nums):
@@ -54,15 +54,33 @@ def count_dist(a):
   return res
 ```
 
+45分钟的电面， 前三分钟寒暄， 后三分钟寒暄。中间只写了这一道题。估计跪了。（HR说要40分钟之内两道题） 五年工作经验， 面得E4岗位。
+
 刚刚结束店面第一题：找lca，bt。followup是如果这个node不在树，该怎么改代码第二题：我没有在lc见过
+
+* 题目类似 利口 义务吧
 
 题意是：给一个木头块数, 和一个整数piece, piece是我们返回给对方的要求木头块的数量，返回最长的木头块长度 比如 arr={5,5,9}, piece=4 5=4+1 5=4+1 9=4+4+1 返回4
 
+Given a api you can use: "String read4KB\(\)", which returns next 4kb of a file. \(no access to the file\). the file has zero or more lines in it, each line is separated by new line character: "\n"
+
 arr={100,101}, piece=1 返回101，因为我们只要一个木头，就选一个最长的木头就好了
+
+Use the above api to implement a new api: String readLine\(\). where each time you call readLine\(\), it returns next line of the file. this maybe called multiple times.
 
 面试的时候现想的，我想的是用binary search做，这样找到能切的最大值和最小值（0），然后根据mid来看是否能够满足返回piece的条件。这个题目仿佛在哪里见过，但我又想不起来。
 
+For example: File contains: "Hello\nWorld\nGoodBye"
 
+[252. Meeting Rooms](../leetcode-problems/252.-meeting-rooms.md), [253. Meeting Rooms II](../leetcode-problems/253.-meeting-rooms-ii.md)
+
+first time call readline\(\) returns "Hello\n" second time call readline\(\) returns "World\n" thrid time call readline\(\) returns "GoodBye" forth time call readline\(\) returns null
+
+
+
+* 给一个string “123456789” 找到所有加减起来成100的组合
+
+[53. Maximum Subarray](../leetcode-problems/53.-maximum-subarray.md)
 
 1. 给一个array 问swap一次可否变成sorted的。
 
@@ -76,16 +94,47 @@ arr={100,101}, piece=1 返回101，因为我们只要一个木头，就选一个
 
    楼主举了两个例子 但是不知道如果数学上证明不行
 
+[1053. Previous Permutation With One Swap](../leetcode-problems/1053.-previous-permutation-with-one-swap.md)
+
 2.给一个sorted binary 2d matrix \[\[0, 1, 1\] \[0, 0, 1\] \[0, 0, 0\]\] return 第一个1出现的列的序号，上述例子return 1 用的for循环 + binary search O\(m \* logn\)时间复杂度， 征求面试官同意后开始写。写出来了
 
+* Without one swap and just get last largest permutation smaller than current permutation
 
+
+
+```python
+class Solution:
+    def prevPermOpt1(self, A: List[int]) -> List[int]:
+        if not A:
+            return []
+        if len(A) == 1:
+            return A
+        i, j = len(A) - 1, len(A) - 2
+        while j >= 0 and A[j] <= A[j + 1]:
+            j -= 1
+        if j < 0:
+            return A
+        while A[j] <= A[i]:
+            i -= 1
+        while A[i - 1] == A[i]:
+            i -= 1
+        A[i], A[j] = A[j], A[i]
+        # making sequence after j to be strictly decreasing
+        while i < len(A) - 1 and A[i] < A[i + 1]:
+            A[i], A[i + 1] = A[i + 1], A[i]
+        return A
+```
 
 给一个长度为N的array， 然后里面有M个部分， 每一部分都是排好序的，输出排好序的array。  
 例子\[2,5,6, 1,2,4, 9, 11, 12\] 输出\[1, 2, 2, 4, 5, 6, 9, 11, 12\] 刚开始见到没刷过的题有点紧张， 理解题意花了五分钟，之后代码写的蛮快的，之后和大哥聊了15分钟， 过两天催了HR给了onsite  
   
 Given a api you can use: "String read4KB\(\)", which returns next 4kb of a file. \(no access to the file\). the file has zero or more lines in it, each line is separated by new line character: "\n"
 
+[560. Subarray Sum Equals K/Target](../leetcode-problems/560.-subarray-sum-equals-k.md)
+
 Use the above api to implement a new api: String readLine\(\). where each time you call readLine\(\), it returns next line of the file. this maybe called multiple times.
+
+给一个string和idx 删除对应idx上的所有string 例如 “ABC AB”，4 return “ABC”， “ACDSCD DS DSF"，8 return “ACDSCD DSF"
 
 For example: File contains: "Hello\nWorld\nGoodBye"
 
