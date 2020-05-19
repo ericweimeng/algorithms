@@ -308,6 +308,7 @@
 * [844. Backspace String Compare](leetcode-problems/844.-backspace-string-compare.md)
 * [852. Peak Index in a Mountain Array](leetcode-problems/852.-peak-index-in-a-mountain-array.md)
 * [863. All Nodes Distance K in Binary Tree](leetcode-problems/863.-all-nodes-distance-k-in-binary-tree.md)
+* [865. Smallest Subtree with all the Deepest Nodes](leetcode-problems/865.-smallest-subtree-with-all-the-deepest-nodes.md)
 * [875. Koko Eating Bananas](leetcode-problems/875.-koko-eating-bananas.md)
 * [877. Stone Game](leetcode-problems/877.-stone-game.md)
 * [896. Monotonic Array](leetcode-problems/896.-monotonic-array.md)
