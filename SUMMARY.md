@@ -264,6 +264,7 @@
 * [547. Friend Circles](leetcode-problems/547.-friend-circles.md)
 * [548. Split Array with Equal Sum](leetcode-problems/548.-split-array-with-equal-sum.md)
 * [549. Binary Tree Longest Consecutive Sequence II](leetcode-problems/549.-binary-tree-longest-consecutive-sequence-ii.md)
+* [554. Brick Wall](leetcode-problems/554.-brick-wall.md)
 * [560. Subarray Sum Equals K](leetcode-problems/560.-subarray-sum-equals-k.md)
 * [605. Can Place Flowers](leetcode-problems/605.-can-place-flowers.md)
 * [616. Add Bold Tag in String](leetcode-problems/616.-add-bold-tag-in-string.md)
