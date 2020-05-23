@@ -181,6 +181,7 @@
 * [238. Product of Array Except Self](leetcode-problems/238.-product-of-array-except-self.md)
 * [239. Sliding Window Maximum](leetcode-problems/239.-sliding-window-maximum.md)
 * [240. Search a 2D Matrix II](leetcode-problems/240.-search-a-2d-matrix-ii.md)
+* [243. Shortest Word Distance](leetcode-problems/243.-shortest-word-distance.md)
 * [246. Strobogrammatic Number](leetcode-problems/246.-strobogrammatic-number.md)
 * [247. Strobogrammatic Number II](leetcode-problems/247.-strobogrammatic-number-ii.md)
 * [249. Group Shifted Strings](leetcode-problems/249.-group-shifted-strings.md)
