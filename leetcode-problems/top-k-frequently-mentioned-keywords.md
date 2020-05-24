@@ -99,6 +99,10 @@ if __name__ == '__main__':
 
 ### Approach \#2
 
+O\(N\*L+ LlogL\)
+
+O\(L\)
+
 ```python
 def freqWords(reviews, keywords, k):
 
