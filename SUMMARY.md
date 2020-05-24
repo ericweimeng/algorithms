@@ -301,6 +301,7 @@
 * [740. Delete and Earn](leetcode-problems/740.-delete-and-earn.md)
 * [746. Min Cost Climbing Stairs](leetcode-problems/746.-min-cost-climbing-stairs.md)
 * [759. Employee Free Time](leetcode-problems/759.-employee-free-time.md)
+* [763. Partition Labels](leetcode-problems/763.-partition-labels.md)
 * [766. Toeplitz Matrix](leetcode-problems/766.-toeplitz-matrix.md)
 * [767. Reorganize String](leetcode-problems/767.-reorganize-string.md)
 * [776. Split BST](leetcode-problems/776.-split-bst.md)
