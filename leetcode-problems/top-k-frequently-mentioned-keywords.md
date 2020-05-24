@@ -97,3 +97,31 @@ if __name__ == '__main__':
     print(res)
 ```
 
+### Approach \#2
+
+```python
+def freqWords(reviews, keywords, k):
+
+	if not reviews or not keywords or not k:
+		return []
+
+	freq = collections.defaultdict(int)
+
+	for review in reviews:
+		for keyword in keywords:
+			if keyword in review.lower():
+				freq[keyword] += 1
+	
+	sorted_key_list = sorted(freq.items(), key=lambda x: (x[1], x[0]), reverse=True)
+
+	res = []
+	for w, freq in sorted_key_list:
+		if k:
+			res.append(w)
+			k -= 1
+		else:
+			return res
+	
+	return res
+```
+
