@@ -3,6 +3,7 @@
 * [Algorithms](README.md)
 * [Companies](companies/README.md)
   * [Facebook](companies/facebook.md)
+  * [Amazon](companies/amazon.md)
 
 ## Python Language
 
@@ -78,6 +79,7 @@
 * [0. Longest string made up of only vowels](leetcode-problems/0.-longest-string-made-up-of-only-vowels.md)
 * [0. Top N Buzzwords](leetcode-problems/top-n-buzzwords.md)
 * [0. Best Time to Buy and Sell Stock Series](leetcode-problems/01.-best-time-to-buy-and-sell-stock-series.md)
+* [Top K Frequently Mentioned Keywords](leetcode-problems/top-k-frequently-mentioned-keywords.md)
 * [1. Two Sum](leetcode-problems/1.-two-sum.md)
 * [2. Add Two Numbers](leetcode-problems/2.-add-two-numbers.md)
 * [3. Longest Substring Without Repeating Characters](leetcode-problems/3.-longest-substring-without-repeating-characters.md)
