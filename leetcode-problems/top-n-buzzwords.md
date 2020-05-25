@@ -85,7 +85,7 @@ def getTopToys(numToys: int, topToys: int, toys: List[str], numQuotes: int, quot
     
     for q in quotes:
         for toy in toys:
-            if toy in q.lower():
+            if toy.lower() in q.lower():
                 freq[toy] += 1
     
     sorted_toys = sorted(freq.items(), key=lambda x: (-x[1], x[0]))

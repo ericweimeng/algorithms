@@ -80,6 +80,7 @@
 * [0. Top N Buzzwords](leetcode-problems/top-n-buzzwords.md)
 * [0. Best Time to Buy and Sell Stock Series](leetcode-problems/01.-best-time-to-buy-and-sell-stock-series.md)
 * [Top K Frequently Mentioned Keywords](leetcode-problems/top-k-frequently-mentioned-keywords.md)
+* [Optimal Utilization](leetcode-problems/optimal-utilization.md)
 * [Min Cost to Connect Ropes](leetcode-problems/min-cost-to-connect-ropes.md)
 * [1. Two Sum](leetcode-problems/1.-two-sum.md)
 * [2. Add Two Numbers](leetcode-problems/2.-add-two-numbers.md)

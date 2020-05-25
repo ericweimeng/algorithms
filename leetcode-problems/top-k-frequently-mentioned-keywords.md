@@ -99,9 +99,11 @@ if __name__ == '__main__':
 
 ### Approach \#2
 
-O\(N\*L+ LlogL\)
+O\(m\*n + nlogn + min\(n, k\)\)
 
-O\(L\)
+O\(n\)
+
+The way to approach this problem is for each review we go through the keyword list to check if that keyword exists in the current review, if yes, then we increment the frequency for that keyword. Then in order to find out the most k frequent keyword, we sorted by the negative value of the frequency, if there's a frequency tie, we use lexicographical order of the keyword. In the end, we add k most frequent keywords to the result. We define m is the length of the reviews and n is the length of the keyword list, therefore the time complexity is O\(m\*n + nlogn + min\(n, k\)\), space is O\(n\)
 
 ```python
 def freqWords(reviews, keywords, k):
@@ -113,7 +115,7 @@ def freqWords(reviews, keywords, k):
 
 	for review in reviews:
 		for keyword in keywords:
-			if keyword in review.lower():
+			if keyword.lower() in review.lower():
 				freq[keyword] += 1
 	
 	sorted_key_list = sorted(freq.items(), key=lambda x: (-x[1], x[0]))
