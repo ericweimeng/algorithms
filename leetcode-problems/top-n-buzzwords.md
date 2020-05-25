@@ -71,3 +71,34 @@ def toy_freq(num_toys, top_toys, toys, num_quotes, quotes):
   return res
 ```
 
+### Approach \#2
+
+```python
+import collections
+
+def getTopToys(numToys: int, topToys: int, toys: List[str], numQuotes: int, quotes: List[str]) -> List[str]:
+    
+    if not topToys or not numToys or not toys or not numQuotes or not quotes:
+        return []
+    
+    freq = collections.defaultdict(int)
+    
+    for q in quotes:
+        for toy in toys:
+            if toy in q.lower():
+                freq[toy] += 1
+    
+    sorted_toys = sorted(freq.items(), key=lambda x: (-x[1], x[0]))
+    
+    res = []
+    
+    for toy, f in sorted_toys:
+        if topToys:
+            res.append(toy)
+            topToys -= 1
+        else:
+            return res
+            
+    return res
+```
+

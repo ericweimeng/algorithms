@@ -116,7 +116,7 @@ def freqWords(reviews, keywords, k):
 			if keyword in review.lower():
 				freq[keyword] += 1
 	
-	sorted_key_list = sorted(freq.items(), key=lambda x: (x[1], x[0]), reverse=True)
+	sorted_key_list = sorted(freq.items(), key=lambda x: (-x[1], x[0]))
 
 	res = []
 	for w, freq in sorted_key_list:
