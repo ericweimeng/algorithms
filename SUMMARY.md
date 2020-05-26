@@ -82,6 +82,8 @@
 * [Top K Frequently Mentioned Keywords](leetcode-problems/top-k-frequently-mentioned-keywords.md)
 * [Optimal Utilization](leetcode-problems/optimal-utilization.md)
 * [Min Cost to Connect Ropes](leetcode-problems/min-cost-to-connect-ropes.md)
+* [Find Pair With Given Sum](leetcode-problems/find-pair-with-given-sum.md)
+* [Movies on flight](leetcode-problems/movies-on-flight.md)
 * [1. Two Sum](leetcode-problems/1.-two-sum.md)
 * [2. Add Two Numbers](leetcode-problems/2.-add-two-numbers.md)
 * [3. Longest Substring Without Repeating Characters](leetcode-problems/3.-longest-substring-without-repeating-characters.md)

@@ -106,12 +106,58 @@ O\(n\)
 The way to approach this problem is for each review we go through the keyword list to check if that keyword exists in the current review, if yes, then we increment the frequency for that keyword. Then in order to find out the most k frequent keyword, we sorted by the negative value of the frequency, if there's a frequency tie, we use lexicographical order of the keyword. In the end, we add k most frequent keywords to the result. We define m is the length of the reviews and n is the length of the keyword list, therefore the time complexity is O\(m\*n + nlogn + min\(n, k\)\), space is O\(n\)
 
 ```python
+import re
+import collections
+
+def freqWords(reviews, keywords, k):
+
+    if not reviews or not keywords or not k:
+        return []
+
+    keywords = set(keywords)
+    freq = collections.defaultdict(int)
+
+    for review in reviews:
+        review_set = set(re.sub(r'[^a-zA-Z]', ' ', review).lower().split())
+        for keyword in keywords:
+            if keyword.lower() in review_set:
+                freq[keyword] += 1
+
+    sorted_key_list = sorted(freq.items(), key=lambda x: (-x[1], x[0]))
+    res = []
+    for w, freq in sorted_key_list:
+        if k:
+            res.append(w)
+            k -= 1
+        else:
+            return res
+	
+    return res
+
+k = 2
+keywords = ["anacell", "bEtacellular", "ANACELL", "cetracular", "deltacellular", "eurocell"]
+# keywords = []
+reviews = [
+  "I love anacell Best services; Best services provided by anacell",
+  "beTacellular has great services",
+  "deltacellular provides much better services than betacellular",
+  "cetracular is worse than anacell   :EuroceLL",
+  "Betacellular is better than deltacellular.",
+]
+
+# reviews = []
+k = 7
+print(freqWords(reviews, keywords, k))
+```
+
+```python
 def freqWords(reviews, keywords, k):
 
 	if not reviews or not keywords or not k:
 		return []
 
 	freq = collections.defaultdict(int)
+	keywords = set(keywords)
 
 	for review in reviews:
 		for keyword in keywords:
