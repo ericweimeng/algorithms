@@ -59,6 +59,52 @@
 
 ### Approach \#1
 
+The idea to approach this problem is to sort both array by the value of each pair, then use two pointer to point to the leftmost of the first array and rightmost of the second array and move left/right pointers based on the comparisons of sum to target. Time complexity is O\(m + n + mnlog\(mn\)\), space: O\(m\*n\)
+
+```python
+def optimal_utilization(a, b, target):
+    if not a or not b:
+        return [[]]
+
+    a.sort(key=lambda x: x[1])
+    b.sort(key=lambda x: x[1])
+    last_sum = float('-inf')
+    left, right = 0, len(b) - 1
+    res = []
+    while left < len(a) and right >= 0:
+        sum_value = a[left][1] + b[right][1]
+        if sum_value > target:
+            right -= 1
+        else:
+            if last_sum <= sum_value:
+                if last_sum < sum_value:
+                    res = []
+                    last_sum = sum_value
+                
+                res.append([a[left][0], b[right][0]])
+                p = right
+
+                while p > 0 and b[p][1] == b[p - 1][1]:
+                    # watch out for add [0] not [1]
+                    res.append([a[left][0], b[p - 1][0]])
+                    p -= 1
+                # move left it gets a new comb, there for cannot assign right to p
+                # right = p
+            
+            left += 1
+        
+    if not res:
+        return [[]]
+
+    return sorted(res)
+
+a = [[1, -8], [2, 15], [3, -9]]
+b = [[1, 8], [2, -11], [3, -12]]
+target = 1
+
+print(optimal_utilization(a, b, target))
+```
+
 ```python
 import unittest
 

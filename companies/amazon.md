@@ -12,6 +12,8 @@
 
 [Partition Labels](../leetcode-problems/763.-partition-labels.md)
 
+[Optimal Utilization](../leetcode-problems/optimal-utilization.md)
+
 [Minimum Cost to Connect Sticks](../leetcode-problems/1167.-minimum-cost-to-connect-sticks.md)/[Min Cost to Connect Ropes](../leetcode-problems/min-cost-to-connect-ropes.md)
 
 [Treasure Island](../leetcode-problems/0.-treasure-island.md)/[Treasure Island II](../leetcode-problems/0.-treasure-island.md)
