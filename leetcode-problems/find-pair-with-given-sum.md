@@ -32,6 +32,32 @@
 
 ### Approach \#1
 
+The idea to approach this problem is to traverse the array and for each element we check if it has existed in a hashmap. If not, we use target subtracts current number as the key, current index as value so that if it finds an element later that with current element, add up to the target - 30, we can access its index to add to result. It also checks if the current candidate pair with either values greater than a largest\_seen value from previous found pairs.
+
+Time: O\(n\)
+
+Space: O\(n\)
+
+```python
+def findSum(nums, target):
+    if not nums:
+        return []
+    target -= 30
+    m = {}
+    largest_seen = -1
+    res = []
+    for i, num in enumerate(nums):
+        if num not in m:
+        # if target - num not in m:
+            m[target - num] = i # only here need target - num
+        else:
+            if num > largest_seen or target - num > largest_seen:
+                # res = [m[target - num], i]
+                res = [m[num], i]
+                largest_seen = max(num, target - num)
+    return res
+```
+
 ```python
 def findSum(nums, target):
     if not nums or not target:
@@ -47,7 +73,7 @@ def findSum(nums, target):
             if nums[i] > largest or target - nums[i] > largest:
                 res[0] = m[nums[i]]
                 res[1] = i
-                largest = max(nums[i],target - nums[i])
+                largest = max(nums[i], target - nums[i])
     if res != [-1,-1]:
         return res
 
