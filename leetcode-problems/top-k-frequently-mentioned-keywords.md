@@ -103,7 +103,7 @@ O\(m\*n + nlogn + min\(n, k\)\)
 
 O\(n\)
 
-The way to approach this problem is for each review we go through the keyword list to check if that keyword exists in the current review, if yes, then we increment the frequency for that keyword. Then in order to find out the most k frequent keyword, we sorted by the negative value of the frequency, if there's a frequency tie, we use lexicographical order of the keyword. In the end, we add k most frequent keywords to the result. We define m is the length of the reviews, n is the length of the keyword list, l is the average length of reviews, therefore the time complexity is O\(n + m\*\(l + n\) + nlogn + min\(n, k\)\), overall is m \* \(l + n\) + nlogn, space is O\(n\).
+The way to approach this problem is for each review we go through the competitor list to check for each competitor if it exists in each review. If yes, then we increment the frequency for that competitor to get a frequency map. Then in order to find out the most k frequent keyword, we sorted by the negative value of the frequency for each competitor, and if there's a frequency tie, we use lexicographical order of the competitor. In the end, we add k most frequent keywords to the result. We define m is the length of the reviews, n is the length of the competitor list, l is the average length of each review, therefore the time complexity is O\(n + m\*\(l + n\) + nlogn + min\(n, k\)\), overall is m \* \(l + n\) + nlogn, space is O\(n\).
 
 ```python
 import re
