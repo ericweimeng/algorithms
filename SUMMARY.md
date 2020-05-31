@@ -365,6 +365,7 @@
 * [1066. Campus Bikes II](leetcode-problems/1066.-campus-bikes-ii.md)
 * [1089. Duplicate Zeros](leetcode-problems/1089.-duplicate-zeros.md)
 * [1091. Shortest Path in Binary Matrix](leetcode-problems/1091.-shortest-path-in-binary-matrix.md)
+* [1188. Design Bounded Blocking Queue](leetcode-problems/1188.-design-bounded-blocking-queue.md)
 * [1192. Critical Connections in a Network](leetcode-problems/1192.-critical-connections-in-a-network.md)
 * [1102. Path With Maximum Minimum Value](leetcode-problems/1102.-path-with-maximum-minimum-value.md)
 * [1108. Defanging an IP Address](leetcode-problems/1108.-defanging-an-ip-address.md)
