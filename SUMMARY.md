@@ -3,7 +3,8 @@
 * [Algorithms](README.md)
 * [Companies](companies/README.md)
   * [Facebook](companies/facebook.md)
-  * [Amazon](companies/amazon.md)
+  * [Amazon](companies/amazon/README.md)
+    * [Leadership Principles](companies/amazon/leadership-principles.md)
 
 ## Python Language
 
