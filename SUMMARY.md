@@ -383,6 +383,7 @@
 * [1155. Number of Dice Rolls With Target Sum](leetcode-problems/1155.-number-of-dice-rolls-with-target-sum.md)
 * [1167. Minimum Cost to Connect Sticks](leetcode-problems/1167.-minimum-cost-to-connect-sticks.md)
 * [1170. Compare Strings by Frequency of the Smallest Character](leetcode-problems/1170.-compare-strings-by-frequency-of-the-smallest-character.md)
+* [1188. Design Bounded Blocking Queue](leetcode-problems/1188.-design-bounded-blocking-queue-1.md)
 * [1192. Critical Connections in a Network](leetcode-problems/1192.-critical-connections-in-a-network-1.md)
 * [1197. Minimum Knight Moves](leetcode-problems/1197.-minimum-knight-moves.md)
 * [1213. Intersection of Three Sorted Arrays](leetcode-problems/1213.-intersection-of-three-sorted-arrays.md)
