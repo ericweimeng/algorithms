@@ -387,6 +387,7 @@
 * [1192. Critical Connections in a Network](leetcode-problems/1192.-critical-connections-in-a-network-1.md)
 * [1197. Minimum Knight Moves](leetcode-problems/1197.-minimum-knight-moves.md)
 * [1213. Intersection of Three Sorted Arrays](leetcode-problems/1213.-intersection-of-three-sorted-arrays.md)
+* [1236. Web Crawler](leetcode-problems/1236.-web-crawler.md)
 * [1249. Minimum Remove to Make Valid Parentheses](leetcode-problems/1249.-minimum-remove-to-make-valid-parentheses.md)
 * [1268. Search Suggestions System](leetcode-problems/1268.-search-suggestions-system.md)
 * [1283. Find the Smallest Divisor Given a Threshold](leetcode-problems/1283.-find-the-smallest-divisor-given-a-threshold.md)
