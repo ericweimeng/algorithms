@@ -22,3 +22,17 @@
 
 **Webpack** is a build tool that puts all of your assets, including Javascript, images, fonts, and CSS, in a dependency graph. Webpack lets you use `require()` in your source code to point to local files, like images, and decide how they're processed in your final Javascript bundle, like replacing the path with a URL pointing to a CDN.
 
+If you're building a complex Front End application with many **non-code static assets** such as CSS, images, fonts, etc, then yes, Webpack will give you great benefits.
+
+If your application is fairly small, and you don't have many static assets and you only need to build one Javascript file to serve to the client, then Webpack might be more overhead than you need.
+
+### **strict mode**
+
+### **What is Cross-Site Scripting \(XSS\)?**
+
+### API design
+
+* Platform Independent
+* Consistent, robust, efficient, secure, easy to scale
+* Naming
+
