@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Algorithms](README.md)
+* [Interviews](interviews.md)
 * [Interview](interview.md)
 * [Companies](companies/README.md)
   * [Oracle](companies/oracle.md)
