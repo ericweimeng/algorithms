@@ -89,3 +89,52 @@ def get_distinct_arr(arr, idx):
 print(merge_two_arrays([45, 88, 100], [83, 88, 100]))
 ```
 
+## Remove duplicates that exceeded limit
+
+```python
+"""
+'aaabbba', 2 -> aabba
+"""
+import unittest
+
+def remove_duplicates(s, limit):
+    if not s:
+        return ''
+
+    if not limit:
+        return s
+
+    last_char = s[0]
+    res = s[0]
+    i = 1
+    count = 1
+
+    while i < len(s):
+        if s[i] == last_char:
+            if count < limit:
+                res += s[i]
+            count += 1
+            i += 1
+        else:
+            last_char = s[i]
+            res += s[i]
+            count = 1
+            i += 1
+
+    return res
+
+# print(remove_duplicates('aaabbba', 2))
+
+class TestRemoveDuplicates(unittest.TestCase):
+
+    def test_remove_duplicates(self):
+        self.assertEqual(remove_duplicates('aaabbba', 2), 'aabba')
+        self.assertEqual(remove_duplicates('', 2), '')
+        self.assertEqual(remove_duplicates('aaabbba', 0), 'aaabbba')
+        self.assertEqual(remove_duplicates('aaabbba', 1), 'aba')
+        self.assertEqual(remove_duplicates('aaabbba', 7), 'aaabbba')
+
+if __name__ == '__main__':
+    unittest.main()
+```
+
