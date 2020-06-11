@@ -1,7 +1,6 @@
 # Table of contents
 
 * [Algorithms](README.md)
-* [Interviews](interviews.md)
 * [Interview](interview.md)
 * [Companies](companies/README.md)
   * [Oracle](companies/oracle.md)
@@ -76,6 +75,7 @@
 ## LeetCode Problems Lib <a id="leetcode-problems"></a>
 
 * [Parentheses](leetcode-problems/parentheses.md)
+* [Interviewed](leetcode-problems/interviewed.md)
 * [0. Treasure Island](leetcode-problems/0.-treasure-island.md)
 * [0. Find Pair With Given Sum](leetcode-problems/0.-find-pair-with-given-sum.md)
 * [0. Zombie Matrix](leetcode-problems/0.-zombie-matrix.md)
