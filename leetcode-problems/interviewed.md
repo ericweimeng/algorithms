@@ -138,3 +138,28 @@ if __name__ == '__main__':
     unittest.main()
 ```
 
+## Remove Alternate Duplicates
+
+> """ Remove Alternate Duplicate characters from a char array you have to do it in Place.Like keeping only the odd occurences of each character. Example: Input: “you got beautiful eyes”
+>
+> Output: ”you gt beaiful es” Allowed Time Complexity was O\(n\) and Space Complexity was O\(1\) """
+
+```python
+def remove_even_char(s):
+    if not s:
+        return ''
+
+    s = list(s)
+    orr = set()
+    for i, c in enumerate(s):
+        if c not in orr:
+            orr.add(c)
+        else:
+            s[i] = ''
+            orr.remove(c)
+    return ''.join(ls)
+
+
+print(remove_even_char('you got beautiful eyes'))
+```
+
