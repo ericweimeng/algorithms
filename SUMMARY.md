@@ -259,6 +259,7 @@
 * [451. Sort Characters By Frequency](leetcode-problems/451.-sort-characters-by-frequency.md)
 * [452. Minimum Number of Arrows to Burst Balloons](leetcode-problems/452.-minimum-number-of-arrows-to-burst-balloons.md)
 * [456. 132 Pattern](leetcode-problems/456.-132-pattern.md)
+* [460. LFU Cache](leetcode-problems/460.-lfu-cache.md)
 * [463. Island Perimeter](leetcode-problems/463.-island-perimeter.md)
 * [472. Concatenated Words](leetcode-problems/472.-concatenated-words.md)
 * [474. Ones and Zeroes](leetcode-problems/474.-ones-and-zeroes.md)
