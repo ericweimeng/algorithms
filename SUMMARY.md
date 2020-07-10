@@ -246,6 +246,7 @@
 * [377. Combination Sum IV](leetcode-problems/377.-combination-sum-iv.md)
 * [378. Kth Smallest Element in a Sorted Matrix](leetcode-problems/378.-kth-smallest-element-in-a-sorted-matrix.md)
 * [380. Insert Delete GetRandom O\(1\)](leetcode-problems/380.-insert-delete-getrandom-o-1.md)
+* [384. Shuffle an Array](leetcode-problems/384.-shuffle-an-array.md)
 * [394. Decode String](leetcode-problems/394.-decode-string.md)
 * [398. Random Pick Index](leetcode-problems/398.-random-pick-index.md)
 * [399. Evaluate Division](leetcode-problems/399.-evaluate-division.md)
