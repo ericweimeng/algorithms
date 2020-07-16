@@ -215,6 +215,7 @@
 * [286. Walls and Gates](leetcode-problems/286.-walls-and-gates.md)
 * [287. Find the Duplicate Number](leetcode-problems/287.-find-the-duplicate-number.md)
 * [295. Find Median from Data Stream](leetcode-problems/295.-find-median-from-data-stream.md)
+* [296. Best Meeting Point](leetcode-problems/296.-best-meeting-point.md)
 * [297. Serialize and Deserialize Binary Tree](leetcode-problems/297.-serialize-and-deserialize-binary-tree.md)
 * [298. Binary Tree Longest Consecutive Sequence](leetcode-problems/298.-binary-tree-longest-consecutive-sequence.md)
 * [300. Longest Increasing Subsequence](leetcode-problems/300.-longest-increasing-subsequence.md)
