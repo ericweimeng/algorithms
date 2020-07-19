@@ -1,4 +1,4 @@
-# DFS
+# DFS/Recusrion/Backtracking
 
 ## Recursion
 
@@ -42,6 +42,21 @@ Space complexity is the maximum call stack of the recursion
  
 
 ![](../../.gitbook/assets/78-ep236.png)
+
+## Backtracking
+
+### Three keys to backtracking
+
+* Our Choice
+  * What choice do we make at each call of the function
+  * Recursion expresses decision
+* Our Constraints
+  * When do we stop following a certain path
+  * When do we not even go down one way
+* Our Goal
+  * What is our target
+  * What are we trying to find
+  * The base case comes from this
 
 ## Problems
 

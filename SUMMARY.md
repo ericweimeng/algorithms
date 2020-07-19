@@ -36,7 +36,7 @@
   * [33. Search in Rotated Sorted Array](concepts/binary-search-and-sweeping-line/33.-search-in-rotated-sorted-array.md)
   * [81. Search in Rotated Sorted Array II](concepts/binary-search-and-sweeping-line/81.-search-in-rotated-sorted-array-ii.md)
   * [852. Peak Index in a Mountain Array](concepts/binary-search-and-sweeping-line/852.-peak-index-in-a-mountain-array.md)
-* [DFS](concepts/dfs/README.md)
+* [DFS/Recusrion/Backtracking](concepts/dfs/README.md)
   * [93. Restore IP Addresses](concepts/dfs/93.-restore-ip-addresses.md)
   * [472. Concatenated Words](concepts/dfs/472.-concatenated-words.md)
 * [Two Pointers](concepts/two-pointers/README.md)
