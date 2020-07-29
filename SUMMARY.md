@@ -118,6 +118,7 @@
 * [43. Multiply Strings](leetcode-problems/43.-multiply-strings.md)
 * [44. Wildcard Matching](leetcode-problems/44.-wildcard-matching.md)
 * [47. Permutations II](leetcode-problems/47.-permutations-ii.md)
+* [51. N-Queens](leetcode-problems/51.-n-queens.md)
 * [53. Maximum Subarray](leetcode-problems/53.-maximum-subarray.md)
 * [56. Merge Intervals](leetcode-problems/56.-merge-intervals.md)
 * [62. Unique Paths](leetcode-problems/62.-unique-paths.md)
