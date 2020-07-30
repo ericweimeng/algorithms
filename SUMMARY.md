@@ -350,6 +350,7 @@
 * [896. Monotonic Array](leetcode-problems/896.-monotonic-array.md)
 * [909. Snakes and Ladders](leetcode-problems/909.-snakes-and-ladders.md)
 * [921. Minimum Add to Make Parentheses Valid](leetcode-problems/921.-minimum-add-to-make-parentheses-valid.md)
+* [934. Shortest Bridge](leetcode-problems/934.-shortest-bridge.md)
 * [935. Knight Dialer](leetcode-problems/935.-knight-dialer.md)
 * [937. Reorder Data in Log Files](leetcode-problems/937.-reorder-data-in-log-files.md)
 * [938. Range Sum of BST](leetcode-problems/938.-range-sum-of-bst.md)
