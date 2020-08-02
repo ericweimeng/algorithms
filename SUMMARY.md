@@ -332,6 +332,7 @@
 * [766. Toeplitz Matrix](leetcode-problems/766.-toeplitz-matrix.md)
 * [767. Reorganize String](leetcode-problems/767.-reorganize-string.md)
 * [776. Split BST](leetcode-problems/776.-split-bst.md)
+* [784. Letter Case Permutation](leetcode-problems/784.-letter-case-permutation.md)
 * [785. Is Graph Bipartite?](leetcode-problems/785.-is-graph-bipartite.md)
 * [788. Rotated Digits](leetcode-problems/788.-rotated-digits.md)
 * [801. Minimum Swaps To Make Sequences Increasing](leetcode-problems/801.-minimum-swaps-to-make-sequences-increasing.md)
