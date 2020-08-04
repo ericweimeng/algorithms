@@ -358,6 +358,7 @@
 * [937. Reorder Data in Log Files](leetcode-problems/937.-reorder-data-in-log-files.md)
 * [938. Range Sum of BST](leetcode-problems/938.-range-sum-of-bst.md)
 * [939. Minimum Area Rectangle](leetcode-problems/939.-minimum-area-rectangle.md)
+* [946. Validate Stack Sequences](leetcode-problems/946.-validate-stack-sequences.md)
 * [947. Most Stones Removed with Same Row or Column](leetcode-problems/947.-most-stones-removed-with-same-row-or-column.md)
 * [953. Verifying an Alien Dictionary](leetcode-problems/953.-verifying-an-alien-dictionary.md)
 * [958. Check Completeness of a Binary Tree](leetcode-problems/958.-check-completeness-of-a-binary-tree.md)
