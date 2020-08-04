@@ -166,6 +166,7 @@
 * [140. Word Break II](leetcode-problems/140.-word-break-ii.md)
 * [146. LRU Cache](leetcode-problems/146.-lru-cache.md)
 * [148. Sort List](leetcode-problems/148.-sort-list.md)
+* [150. Evaluate Reverse Polish Notation](leetcode-problems/150.-evaluate-reverse-polish-notation.md)
 * [152. Maximum Product Subarray](leetcode-problems/152.-maximum-product-subarray.md)
 * [157. Read N Characters Given Read4](leetcode-problems/157.-read-n-characters-given-read4.md)
 * [158. Read N Characters Given Read4 II - Call multiple times](leetcode-problems/158.-read-n-characters-given-read4-ii-call-multiple-times.md)
