@@ -424,5 +424,6 @@
 * [1274. Number of Ships in a Rectangle](leetcode-problems/1274.-number-of-ships-in-a-rectangle.md)
 * [1283. Find the Smallest Divisor Given a Threshold](leetcode-problems/1283.-find-the-smallest-divisor-given-a-threshold.md)
 * [1290. Convert Binary Number in a Linked List to Integer](leetcode-problems/1290.-convert-binary-number-in-a-linked-list-to-integer.md)
+* [1312. Minimum Insertion Steps to Make a String Palindrome](leetcode-problems/1312.-minimum-insertion-steps-to-make-a-string-palindrome.md)
 * [1344. Angle Between Hands of a Clock](leetcode-problems/1344.-angle-between-hands-of-a-clock.md)
 
