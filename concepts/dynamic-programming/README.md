@@ -98,6 +98,21 @@
 * 右移一位相当于mod 2 去掉最低位, 右移n位相当于除2的n次方, 左移一位相当于最低位加入一个0, 左移n位相当于乘以2的n次方
 * [338. Counting Bits](https://app.gitbook.com/@ericwei0910/s/workspace/~/edit/drafts/-LpzX9SJvLyyGuVqkWHj/leetcode-problems/338.-counting-bits)
 
+### LC 对应刷过题型
+
+* 其他
+  * 10
+* 序列型
+  * 单序列型
+    * 300
+  * 双序列型
+    * 基本方向-&gt; 解决两个字符串的动态规划问题，一般都是用两个指针 `i,j` 分别指向两个字符串的最后/开始，然后一步步往前走/后走，缩小问题的规模
+    * 1143
+    * 583 -&gt; 删除后的结果为两串最长公共序列\(LCS\)
+    * 72 s1 -&gt; s2 same as s2 -&gt; s1
+
+
+
 ## Problems
 
 * [63. Unique Paths II](https://app.gitbook.com/@ericwei0910/s/workspace/~/edit/drafts/-LpzX9SJvLyyGuVqkWHj/leetcode-problems/63.-unique-paths-ii)
