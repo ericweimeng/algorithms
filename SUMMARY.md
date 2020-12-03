@@ -189,6 +189,7 @@
 * [208. Implement Trie \(Prefix Tree\)](leetcode-problems/208.-implement-trie-prefix-tree.md)
 * [209. Minimum Size Subarray Sum](leetcode-problems/209.-minimum-size-subarray-sum.md)
 * [211. Add and Search Word - Data structure design](leetcode-problems/211.-add-and-search-word-data-structure-design.md)
+* [210. Course Schedule II](leetcode-problems/210.-course-schedule-ii.md)
 * [212. Word Search II](leetcode-problems/212.-word-search-ii.md)
 * [215. Kth Largest Element in an Array](leetcode-problems/215.-kth-largest-element-in-an-array.md)
 * [216. Combination Sum III](leetcode-problems/216.-combination-sum-iii.md)
