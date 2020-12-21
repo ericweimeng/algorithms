@@ -104,6 +104,8 @@ Rough estimation: $$10^{6}$$ ~ $$10^{7}$$ ops/sec based on time complexity, so i
 
 ## General Thoughts
 
+* 树的递归那里如果每层递归查看有否左右节点那在之后的递归要查看是否有左右节点再递归要不root会为空
+* 类似于window这类题，注意厘清在每次循环中做什么事情，一些事情是这轮循环做还是下轮做
 * General checking at the end
   * '=' and '=='
   * if all params all passed in correctly \(especially for recursive calls\)
