@@ -2,6 +2,7 @@
 
 * [Algorithms](README.md)
 * [Interview](interview.md)
+* [Nine chapter](nine-chapter.md)
 * [Companies](companies/README.md)
   * [Oracle](companies/oracle.md)
   * [Facebook](companies/facebook.md)
